@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:tns="http://tempuri.org/"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	name="Service1" targetNamespace="http://tempuri.org/">
+	<wsdl:types>
+		<xsd:schema targetNamespace="http://tempuri.org/Imports">
+			<xsd:import schemaLocation="http://uk01dodw006:86/Service1.svc?xsd=xsd0"
+				namespace="http://tempuri.org/" />
+			<xsd:import schemaLocation="http://uk01dodw006:86/Service1.svc?xsd=xsd1"
+				namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="IService1_Validation_InputMessage">
+		<wsdl:part name="parameters" element="tns:Validation" />
+	</wsdl:message>
+	<wsdl:message name="IService1_Validation_OutputMessage">
+		<wsdl:part name="parameters" element="tns:ValidationResponse" />
+	</wsdl:message>
+	<wsdl:portType name="IService1">
+		<wsdl:operation name="Validation">
+			<wsdl:input wsaw:Action="http://tempuri.org/IService1/Validation"
+				message="tns:IService1_Validation_InputMessage" />
+			<wsdl:output wsaw:Action="http://tempuri.org/IService1/ValidationResponse"
+				message="tns:IService1_Validation_OutputMessage" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+		<soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="Validation">
+			<soap:operation soapAction="http://tempuri.org/IService1/Validation"
+				style="document" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="Service1">
+		<wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+			<soap:address location="http://uk01dodw006:86/Service1.svc" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jxb:bindings xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:jxb="http://java.sun.com/xml/ns/jaxb" version="2.1" xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+    <jxb:bindings schemaLocation="https://uk01deca021.aceins.com/WorkView/InsuredService/InsuredService.svc?xsd=xsd0">
+        <jxb:bindings node="//xs:element[@name='GetInsured']">
+            <jxb:class name="GetInsuredMod"/>
+        </jxb:bindings>
+    </jxb:bindings>
+</jxb:bindings>

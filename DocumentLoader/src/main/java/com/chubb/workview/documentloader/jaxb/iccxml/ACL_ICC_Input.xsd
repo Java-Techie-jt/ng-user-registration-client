@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ScannedImage" type="ScannedImageType" />
+	<xs:complexType name="ScannedImageType">
+		<xs:sequence>
+			<xs:element type="IndexType" name="Index" />
+			<xs:element type="DocumentType" name="Document" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DocumentType">
+		<xs:sequence>
+			<xs:element type="xs:string" name="FileName" />
+			<xs:element type="xs:string" name="scan_info" />
+			<xs:element type="xs:string" name="Scanop" />
+			<xs:element type="xs:date" name="scandate" />
+			<xs:element type="xs:string" name="scantime" />
+			<xs:element type="xs:string" name="doc_description" />
+			<xs:element type="xs:int" name="file_code" />
+			<xs:element type="xs:int" name="ftyp_code" />
+			<xs:element type="xs:string" name="doc_type_code" />
+			<xs:element type="xs:date" name="Docdate" />
+			<xs:element type="xs:string" name="doc_producer" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IndexType">
+		<xs:sequence>
+			<xs:element type="xs:string" name="bpu_code" />
+			<xs:element type="xs:string" name="ctry_code" />
+			<xs:element type="xs:string" name="Entity_Type" />
+			<xs:element type="xs:string" name="FileNumber" />
+			<xs:element type="xs:string" name="cl_number" />
+			<xs:element type="xs:string" name="cert_number" />
+			<xs:element type="xs:string" name="pol_number" />
+			<xs:element type="xs:string" name="ent_code" />
+			<xs:element type="xs:string" name="IngestionMethod" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

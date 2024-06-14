@@ -1,0 +1,16 @@
+20-06-2019 06:42:25 INFO  ResourceLoader:44 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+20-06-2019 06:42:25 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+20-06-2019 06:48:37 INFO  ResourceLoader:44 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+20-06-2019 06:48:37 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+20-06-2019 06:48:42 INFO  FolderCreateMain:51 - folder creation completed
+20-06-2019 06:55:11 INFO  ResourceLoader:44 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+20-06-2019 06:55:11 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+20-06-2019 07:01:02 INFO  ResourceLoader:44 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+20-06-2019 07:01:02 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+20-06-2019 07:01:07 INFO  FolderCreateMain:51 - folder creation completed
+20-06-2019 07:15:42 INFO  ResourceLoader:44 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+20-06-2019 07:15:42 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+20-06-2019 07:15:45 INFO  FolderCreateMain:51 - folder creation completed
+20-06-2019 07:19:09 INFO  ResourceLoader:44 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+20-06-2019 07:19:09 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+20-06-2019 07:19:11 INFO  FolderCreateMain:51 - folder creation completed

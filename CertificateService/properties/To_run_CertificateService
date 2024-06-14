@@ -1,0 +1,3 @@
+java -Djavax.net.ssl.trustStore="/home/axshan/durga/certificate/cacerts" 
+-Djavax.net.ssl.trustStorePassword="changeit" -jar 
+CertificateService.jar "Y04TH0006942917" "durga" "THSMIL0001" "3TH" "764" "CS" 

@@ -1,0 +1,67 @@
+
+package com.chubb.workview.insuredservice._2016._06;
+
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElementRef;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Java class for GetInsured element declaration.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;element name="GetInsured">
+ *   &lt;complexType>
+ *     &lt;complexContent>
+ *       &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *         &lt;sequence>
+ *           &lt;element name="request" type="{http://Chubb.com/WorkView/InsuredService/2016/06}GetInsuredRequest" minOccurs="0"/>
+ *         &lt;/sequence>
+ *       &lt;/restriction>
+ *     &lt;/complexContent>
+ *   &lt;/complexType>
+ * &lt;/element>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "", propOrder = {
+    "request"
+})
+@XmlRootElement(name = "GetInsured")
+public class GetInsuredMod {
+
+    @XmlElementRef(name = "request", namespace = "http://Chubb.com/WorkView/InsuredService/2016/06", type = JAXBElement.class, required = false)
+    protected JAXBElement<GetInsuredRequest> request;
+
+    /**
+     * Gets the value of the request property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link JAXBElement }{@code <}{@link GetInsuredRequest }{@code >}
+     *     
+     */
+    public JAXBElement<GetInsuredRequest> getRequest() {
+        return request;
+    }
+
+    /**
+     * Sets the value of the request property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link JAXBElement }{@code <}{@link GetInsuredRequest }{@code >}
+     *     
+     */
+    public void setRequest(JAXBElement<GetInsuredRequest> value) {
+        this.request = value;
+    }
+
+}

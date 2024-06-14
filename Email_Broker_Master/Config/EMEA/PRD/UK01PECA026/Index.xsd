@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Thu Feb 28 2019 18:01:19 GMT+0530 (India Standard Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="index_envelope">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="bpu_code" type="xs:int"></xs:element>
+                           <xs:element name="queue" type="xs:string"></xs:element>
+                           <xs:element name="document" maxOccurs="unbounded" minOccurs="1">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="scan_info" type="xs:string"></xs:element>
+                                             <xs:element name="ftyp_code" type="xs:int"></xs:element>
+                                             <xs:element name="doc_typ_code" type="xs:int"></xs:element>
+                                             <xs:element name="doc_producer" type="xs:string"></xs:element>
+                                             <xs:element name="doc_description" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 

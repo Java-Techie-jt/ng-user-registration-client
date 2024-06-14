@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<ScannedImage>
+	<Email_Metadata>
+		<Subject>Adjustment Letter 3</Subject>
+		<ToMailAddress>GeniusDocumentProcesser@chubb.com</ToMailAddress>
+		<FromMailAddress>PonnuMuthusamy.Subbiah@Chubb.com</FromMailAddress>
+	</Email_Metadata>
+	<workbasket_data>
+		<Error_Queue></Error_Queue>
+		<WorkBasket_Code></WorkBasket_Code>
+		<Error_flag>FALSE</Error_flag>
+	</workbasket_data>
+	<Index>
+		<bpu_code>3</bpu_code>
+		<ctry_code>CH</ctry_code>
+		<Entity_Type>Policy</Entity_Type>
+		<FileNumber>CHCGNA00477</FileNumber>
+		<cl_number></cl_number>
+		<cert_number />
+		<cert_name />
+		<pol_number>CHCGNA00477</pol_number>
+		<quote_number></quote_number>
+		<gf_number></gf_number>
+		<ent_code>80110</ent_code>
+		<actioned_date></actioned_date>
+		<IngestionMethod>09</IngestionMethod>
+	</Index>
+	<Document>
+		<PackageID>de305d54-75b4-431b-adb2-eb6b9e546014</PackageID>
+		<Otherref>ef30554d-75b4-431b-adb2-eb6b9e546014</Otherref>
+		<IsParent>false</IsParent>
+		<FileName>GE07P006.PDF</FileName>
+		<scanInfo>GE07P006.PDF</scanInfo>
+		<scandate>20160316</scandate>
+		<scantime>14:31:48</scantime>
+		<docDescription>2016.02.05-Invoice</docDescription>
+		<file_type_code>01</file_type_code>
+		<folder_type_code>5305</folder_type_code>
+		<docTypeCode>3346</docTypeCode>
+		<Docdate>20160316</Docdate>
+		<docProducer>GeniusInvoice</docProducer>
+		<AIN></AIN>
+	</Document>
+</ScannedImage>

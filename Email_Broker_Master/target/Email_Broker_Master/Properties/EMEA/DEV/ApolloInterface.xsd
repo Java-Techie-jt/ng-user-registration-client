@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	attributeFormDefault="unqualified" 
+	elementFormDefault="qualified">
+
+	<xs:simpleType name="String64">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="64"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String8">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="8"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String30">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="30"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String255">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String50">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String20">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="20"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String15">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="15"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String39">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="39"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="String80">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="80"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="String100">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="String450">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="450"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String12">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="12"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String9">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String25">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String10">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="String3">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="String16">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="16"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:element name="RiskEnvelope">
+		<xs:complexType>
+			<xs:sequence>
+		        <xs:element name="ACEOnlineVersion" type="xs:decimal" />
+				<xs:element name="RiskIndex">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="POL_NUMBER" 	type="String64" 	nillable="true"/>
+							<xs:element name="ENT_CODE" 	type="String8"	 	nillable="false"/>
+							<xs:element name="BPU_CODE" 	type="xs:integer" 	nillable="true"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="InsuredData">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="M_INS_REF"			type="String16" 		nillable="false"/>
+							<xs:element name="MN_PREFIX_ID"			type="String12" 		nillable="true"/>
+							<xs:element name="CT_COMPANY"			type="String255" 		nillable="true"/>
+							<xs:element name="CT_TITLE_ID"			type="xs:integer" 		nillable="true"/>
+							<xs:element name="CT_FORENAME"			type="String64" 		nillable="true"/>
+							<xs:element name="CT_SURNAME"			type="String255" 		nillable="true"/>
+							<xs:element name="FLOORBUILDING"		type="String39" 		nillable="true"/>
+							<xs:element name="CT_ADDR1"				type="String64" 		nillable="true"/>
+							<xs:element name="CT_ADDR2"				type="String64" 		nillable="true"/>
+							<xs:element name="CT_CITY"				type="String30" 		nillable="true"/>
+							<xs:element name="CT_COUNTY"			type="String50" 		nillable="true"/>
+							<xs:element name="CT_POSTCODE"			type="String15" 		nillable="true"/>
+							<xs:element name="CT_COUNTRY"			type="xs:integer" 		nillable="true"/>
+							<xs:element name="CT_TEL_NUMBER"		type="String20" 		nillable="true"/>
+							<xs:element name="CT_TEL_NUMBER_OTHER"	type="String20" 		nillable="true"/>
+							<xs:element name="CT_FAX_NUMBER"		type="String20" 		nillable="true"/>
+							<xs:element name="CT_EMAIL_ADDR"		type="String255" 		nillable="true"/>
+							<xs:element name="PORTFOLIO_SEGMENT" type="String255" 		nillable="true" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SubmissionData">
+					<xs:complexType mixed="true">
+						<xs:sequence>
+							<xs:element name="BILLING_METHOD"		type="xs:integer"	nillable="true"/>
+							<xs:element name="BRANCH_CODE"			type="xs:integer"	nillable="true"/>
+							<xs:element name="BROKER_ID"			type="xs:integer"	nillable="true"/>
+							<xs:element name="BROKER_REFERENCE"		type="String9"		nillable="true"/>
+							<xs:element name="BUSINESS_DESC"		type="xs:integer"	nillable="true"/>
+							<xs:element name="COMMISSION_PCT_EL"	type="xs:decimal"	nillable="true"/>
+							<xs:element name="COMMISSION_PCT_OTHER"	type="xs:decimal"	nillable="true"/>
+							<xs:element name="COUNTRY_OF_RISK_ID"	type="xs:integer"	nillable="true"/>
+							<xs:element name="COVERAGE"				type="String25"		nillable="true"/>							
+							<xs:element name="DEPT_ID"				type="xs:integer"	nillable="true"/>
+							<xs:element name="EXCL_FLAG_ID"			type="xs:integer"	nillable="true"/>
+							<xs:element name="FIELD_OFFICE_ID"		type="xs:integer"	nillable="true"/>
+							<xs:element name="FOS_FLAG_ID"			type="xs:integer"	nillable="true"/>
+							<xs:element name="HISTORICAL_REF"		type="String255"	nillable="true"/>
+							<xs:element name="IS_SENSITIVE"			type="xs:integer"	nillable="true"/>
+							<xs:element name="LEADER"				type="String10"		nillable="true"/>
+							<xs:element name="NTU_DECLINE_REASON"	type="xs:integer"	nillable="true"/>
+							<xs:element name="ORIG_INCEPT_DATE"		type="xs:date"		nillable="true"/>
+							<xs:element name="PERIOD_FROM_DT"		type="xs:date"		nillable="true"/>
+							<xs:element name="PERIOD_TO_DT"			type="xs:date"		nillable="true"/>
+							<xs:element name="POL_MASTER_POL"		type="String64"		nillable="true"/>
+							<xs:element name="POL_QUOTE_NUMBER"		type="String64"		nillable="true"/>
+							<xs:element name="POL_SITE"				type="String255"	nillable="true"/>
+							<xs:element name="PRIMARY_LIMIT"		type="xs:decimal"	nillable="true"/>							
+							<xs:element name="PRODUCT_ID"			type="xs:integer"	nillable="true"/>
+							<xs:element name="PROG_TYPE_ID"			type="xs:integer"	nillable="true"/>
+							<xs:element name="PTYP_ID"				type="xs:integer"	nillable="true"/>
+							<xs:element name="QUOTED_DATE"			type="xs:date"		nillable="true"/>
+							<xs:element name="RISK_REFERENCE_NO"	type="String16"		nillable="true"/>
+							<xs:element name="SEGMENT_ID"			type="xs:integer"	nillable="true"/>
+							<xs:element name="SIC_CODE_ID"			type="xs:integer"	nillable="true"/>
+							<xs:element name="SIGNED_LINE"			type="xs:decimal"	nillable="true"/>
+							<xs:element name="SIGNED_ORDER"			type="xs:decimal"	nillable="true"/>
+							<xs:element name="STATE_ID"				type="xs:integer"	nillable="true"/>
+							<xs:element name="TOTAL_EXPOSURE"		type="xs:decimal"	nillable="true"/>
+							<xs:element name="TOTAL_LINE"			type="xs:decimal"	nillable="true"/>
+							<xs:element name="WRITTEN_LINE"			type="xs:decimal"	nillable="true"/>
+							<xs:element name="DUNNS_CODE"			type="String9"		nillable="true" minOccurs="0"/>
+							<xs:element name="ANNUAL_PREMIUM"		type="xs:decimal"	nillable="true" minOccurs="0"/>
+							<xs:element name="LIMIT"				type="xs:decimal"	nillable="true" minOccurs="0"/>
+							<xs:element name="EXPACESHARE"			type="xs:decimal"	nillable="true" minOccurs="0"/>
+							<xs:element name="SUB_SECTION_DESC"		type="String80"		nillable="true" minOccurs="0"/>
+							<xs:element name="PREMIUM_CURRENCY_CD"	type="String3"		nillable="true" minOccurs="0"/>
+							<xs:element name="LIMIT_CURRENCY_CODE"	type="String3"		nillable="true" minOccurs="0"/>							
+							<xs:element name="UNDERWRITER_NAME"		type="String450"	nillable="true" minOccurs="0"/>
+							<xs:element name="DISTRIBUTION_CHANNEL"	type="xs:integer"	nillable="true" minOccurs="0"/>		
+							<xs:element name="COMM_USER"			type="String255"	nillable="true" minOccurs="0"/>							
+							<xs:element name="SECTION_NAME"			type="String64"		nillable="true" minOccurs="0"/>
+							<xs:element name="SYSTEM_NAME"			type="String255"	nillable="true" minOccurs="0"/>
+							<xs:element name="COVR_DESC"			type="String100"	nillable="true" minOccurs="0"/>
+							<xs:element name="NAIC_CODE"			type="xs:integer"	nillable="true" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AttachmentIndex" maxOccurs="unbounded" minOccurs="0" >
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DOC_PRODUCER"		type="String25"		nillable="false"/>
+							<xs:element name="FTYP_CODE"		type="xs:integer"	nillable="true"/>
+							<xs:element name="DOC_TYP_CODE"		type="xs:integer"	nillable="true"/>
+							<xs:element name="DOC_DESCRIPTION"	type="String64"		nillable="false"/>
+							<xs:element name="SCAN_INFO"		type="String255"	nillable="false"/>
+							<xs:element name="AIN"				type="String255"	nillable="false"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>			

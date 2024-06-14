@@ -1,0 +1,18 @@
+13-02-2020 15:37:58 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+13-02-2020 15:37:58 ERROR FileUtilities:42 - 
+13-02-2020 15:37:58 INFO  FileUtilities:44 - Input Shared folder Path is corrupted or not having require permissions for:PE
+13-02-2020 15:37:58 INFO  FileUtilities:45 - Please check folder existence or permissions 
+13-02-2020 15:38:03 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+13-02-2020 15:38:37 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+13-02-2020 15:38:42 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+13-02-2020 15:40:17 INFO  ProcessInitiator:204 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+13-02-2020 15:40:17 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+13-02-2020 15:40:22 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+13-02-2020 15:41:47 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+13-02-2020 15:41:52 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+13-02-2020 15:42:11 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+13-02-2020 15:42:11 INFO  PreProcessorServiceImpl:74 - passed
+13-02-2020 15:42:16 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+13-02-2020 15:42:55 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+13-02-2020 15:43:04 INFO  PreProcessorServiceImpl:185 - New documents are not found in Shared location for:PE
+13-02-2020 15:43:05 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------

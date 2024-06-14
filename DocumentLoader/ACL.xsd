@@ -1,0 +1,62 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ScannedImage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Index">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="bpu_code" type="xs:int">
+							</xs:element>
+							<xs:element name="ctry_code" type="xs:string">
+							</xs:element>
+							<xs:element name="Entity_Type" type="xs:string">
+							</xs:element>
+							<xs:element name="cl_number" type="xs:int">
+							</xs:element>
+							<xs:element name="cert_number">
+							</xs:element>
+							<xs:element name="pol_number" type="xs:string">
+							</xs:element>
+							<xs:element name="ent_code" type="xs:int">
+							</xs:element>
+
+						</xs:sequence>
+
+					</xs:complexType>
+
+				</xs:element>
+
+				<xs:element name="Document">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FileName" type="xs:string">
+							</xs:element>
+							<xs:element name="scan_info" type="xs:string">
+							</xs:element>
+							<xs:element name="doc_description" type="xs:string">
+							</xs:element>
+							<xs:element name="ftyp_code" type="xs:int">
+							</xs:element>
+
+							<xs:element name="doc_type_code" type="xs:int">
+							</xs:element>
+
+							<xs:element name="doc_producer" type="xs:string">
+							</xs:element>
+
+						</xs:sequence>
+
+					</xs:complexType>
+
+				</xs:element>
+
+			</xs:sequence>
+
+			<xs:attribute name="xmlns" type="xs:string"></xs:attribute>
+
+		</xs:complexType>
+
+	</xs:element>
+
+</xs:schema>

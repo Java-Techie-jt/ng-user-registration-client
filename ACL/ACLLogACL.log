@@ -1,0 +1,86 @@
+12-06-2019 06:37:48 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+12-06-2019 06:37:48 INFO  ProcessInitiator:190 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+12-06-2019 06:37:49 INFO  PreProcessorServiceImpl:42 - ACL preProcessorServiceImpl : InitProcess() : Execution Started for Country - NL
+12-06-2019 06:37:49 INFO  PreProcessorServiceImpl:43 - ACL preProcessorServiceImpl : InitProcess() : Checking for New Content
+12-06-2019 06:37:49 FATAL PreProcessorServiceImpl:164 - ACL preProcessorServiceImpl :: InitProcess :: Unhandled exception occurred in the program. Exiting execution for Country : NL. Error : null
+java.lang.NullPointerException
+	at com.chubb.workview.interfaces.service.PreProcessorServiceImpl.initProcess(PreProcessorServiceImpl.java:51)
+	at com.chubb.workview.interfaces.preprocessor.Runner.run(ThreadRunner.java:87)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+12-06-2019 06:37:49 INFO  PreProcessorDAO:37 - Trying to get a new connection instance to DB
+12-06-2019 06:37:49 FATAL PreProcessorMain:44 - ThreadRunner :: InitializeThreads :: Unexpected Runtime Error Occurred in Processing Thread - THREAD_JOBS_INITIATOR. Exiting thread execution !!! Please analyze the logs
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.chubb.workview.interfaces.dao.PreProcessorDAO.<init>(PreProcessorDAO.java:38)
+	at com.chubb.workview.interfaces.dao.PreProcessorDAO.getDAOObject(PreProcessorDAO.java:75)
+	at com.chubb.workview.interfaces.preprocessor.ThreadRunner.initializeThreads(ThreadRunner.java:63)
+	at com.chubb.workview.interfaces.preprocessor.ProcessInitiator.run(PreProcessorMain.java:192)
+	at java.lang.Thread.run(Unknown Source)
+12-06-2019 06:37:54 INFO  PreProcessorMain:69 - ------------ACL Preprocessor Execution Process ENDS without High Availability settings.-----------
+12-06-2019 06:40:40 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+12-06-2019 06:40:40 INFO  ProcessInitiator:190 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+12-06-2019 06:40:40 INFO  PreProcessorServiceImpl:42 - ACL preProcessorServiceImpl : InitProcess() : Execution Started for Country - NL
+12-06-2019 06:40:40 INFO  PreProcessorServiceImpl:43 - ACL preProcessorServiceImpl : InitProcess() : Checking for New Content
+12-06-2019 06:40:40 FATAL PreProcessorServiceImpl:164 - ACL preProcessorServiceImpl :: InitProcess :: Unhandled exception occurred in the program. Exiting execution for Country : NL. Error : null
+java.lang.NullPointerException
+	at com.chubb.workview.interfaces.service.PreProcessorServiceImpl.initProcess(PreProcessorServiceImpl.java:51)
+	at com.chubb.workview.interfaces.preprocessor.Runner.run(ThreadRunner.java:87)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+12-06-2019 06:40:40 INFO  PreProcessorDAO:37 - Trying to get a new connection instance to DB
+12-06-2019 06:40:40 FATAL PreProcessorMain:44 - ThreadRunner :: InitializeThreads :: Unexpected Runtime Error Occurred in Processing Thread - THREAD_JOBS_INITIATOR. Exiting thread execution !!! Please analyze the logs
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.chubb.workview.interfaces.dao.PreProcessorDAO.<init>(PreProcessorDAO.java:38)
+	at com.chubb.workview.interfaces.dao.PreProcessorDAO.getDAOObject(PreProcessorDAO.java:75)
+	at com.chubb.workview.interfaces.preprocessor.ThreadRunner.initializeThreads(ThreadRunner.java:63)
+	at com.chubb.workview.interfaces.preprocessor.ProcessInitiator.run(PreProcessorMain.java:192)
+	at java.lang.Thread.run(Unknown Source)
+12-06-2019 06:40:45 INFO  PreProcessorMain:69 - ------------ACL Preprocessor Execution Process ENDS without High Availability settings.-----------
+12-06-2019 06:42:05 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+12-06-2019 06:42:06 INFO  ProcessInitiator:190 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+12-06-2019 06:42:06 INFO  PreProcessorServiceImpl:42 - ACL preProcessorServiceImpl : InitProcess() : Execution Started for Country - NL
+12-06-2019 06:42:06 INFO  PreProcessorServiceImpl:43 - ACL preProcessorServiceImpl : InitProcess() : Checking for New Content
+12-06-2019 06:42:06 INFO  PreProcessorDAO:37 - Trying to get a new connection instance to DB
+12-06-2019 06:42:06 FATAL PreProcessorMain:44 - ThreadRunner :: InitializeThreads :: Unexpected Runtime Error Occurred in Processing Thread - THREAD_JOBS_INITIATOR. Exiting thread execution !!! Please analyze the logs
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at com.chubb.workview.interfaces.dao.PreProcessorDAO.<init>(PreProcessorDAO.java:38)
+	at com.chubb.workview.interfaces.dao.PreProcessorDAO.getDAOObject(PreProcessorDAO.java:75)
+	at com.chubb.workview.interfaces.preprocessor.ThreadRunner.initializeThreads(ThreadRunner.java:63)
+	at com.chubb.workview.interfaces.preprocessor.ProcessInitiator.run(PreProcessorMain.java:192)
+	at java.lang.Thread.run(Unknown Source)
+12-06-2019 06:42:11 INFO  PreProcessorMain:69 - ------------ACL Preprocessor Execution Process ENDS without High Availability settings.-----------
+12-06-2019 06:43:44 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+12-06-2019 06:43:44 INFO  ProcessInitiator:190 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+12-06-2019 06:43:44 INFO  PreProcessorServiceImpl:42 - ACL preProcessorServiceImpl : InitProcess() : Execution Started for Country - NL
+12-06-2019 06:43:44 INFO  PreProcessorServiceImpl:43 - ACL preProcessorServiceImpl : InitProcess() : Checking for New Content
+12-06-2019 06:43:44 INFO  PreProcessorDAO:37 - Trying to get a new connection instance to DB
+12-06-2019 06:43:46 INFO  PreProcessorDAO:84 - Trying to close a connection instance for DB
+12-06-2019 06:43:51 INFO  PreProcessorMain:69 - ------------ACL Preprocessor Execution Process ENDS without High Availability settings.-----------
+12-06-2019 06:44:07 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+12-06-2019 06:44:07 INFO  ProcessInitiator:190 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+12-06-2019 06:44:07 INFO  PreProcessorServiceImpl:42 - ACL preProcessorServiceImpl : InitProcess() : Execution Started for Country - NL
+12-06-2019 06:44:07 INFO  PreProcessorServiceImpl:43 - ACL preProcessorServiceImpl : InitProcess() : Checking for New Content
+12-06-2019 06:44:07 FATAL PreProcessorServiceImpl:164 - ACL preProcessorServiceImpl :: InitProcess :: Unhandled exception occurred in the program. Exiting execution for Country : NL. Error : null
+java.lang.NullPointerException
+	at com.chubb.workview.interfaces.service.PreProcessorServiceImpl.initProcess(PreProcessorServiceImpl.java:62)
+	at com.chubb.workview.interfaces.preprocessor.Runner.run(ThreadRunner.java:87)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+12-06-2019 06:44:07 INFO  PreProcessorDAO:37 - Trying to get a new connection instance to DB
+12-06-2019 06:44:09 INFO  PreProcessorDAO:84 - Trying to close a connection instance for DB
+12-06-2019 06:44:14 INFO  PreProcessorMain:69 - ------------ACL Preprocessor Execution Process ENDS without High Availability settings.-----------

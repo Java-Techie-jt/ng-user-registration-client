@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="index_envelope" type="index_envelopeType"/>
+  <xs:complexType name="documentType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="scan_info"/>
+      <xs:element type="xs:string" name="doc_description"/>
+      <xs:element type="xs:string" name="ftyp_code"/>
+      <xs:element type="xs:string" name="doc_typ_code"/>
+      <xs:element type="xs:string" name="doc_producer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="index_envelopeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="error_queue"/>
+      <xs:element type="documentType" name="document"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
