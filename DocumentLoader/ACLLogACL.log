@@ -1,0 +1,140 @@
+27-05-2019 13:01:14 INFO  ResourceLoader:41 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+27-05-2019 13:01:14 INFO  ResourceLoader:77 - Properties Instantiation Completed.
+27-05-2019 13:01:14 DEBUG DocumentLoaderMain:33 - Main Thread Execution started : main
+27-05-2019 13:01:14 INFO  ProcessInitiator:226 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+27-05-2019 13:01:14 INFO  PreProcessorDAO:36 - Trying to get a new connection instance to DB
+27-05-2019 13:01:17 DEBUG PreProcessorDAO:177 - Entered a method to execute a DB Query
+27-05-2019 13:01:17 DEBUG ThreadRunner:56 - Awaiting Threads to complete before Termination
+27-05-2019 13:01:17 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 756_SWITZERLAND.with thread: pool-1-thread-2
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 756_SWITZERLAND
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:73 - no documents available for country :756_SWITZERLAND
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 756_SWITZERLAND
+27-05-2019 13:01:17 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 250_FRANCE.with thread: Processing_Thread_756_SWITZERLAND
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 250_FRANCE
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:73 - no documents available for country :250_FRANCE
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 250_FRANCE
+27-05-2019 13:01:17 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 040_AUSTRIA.with thread: pool-1-thread-4
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 040_AUSTRIA
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:17 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 380_ITALY.with thread: pool-1-thread-3
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 380_ITALY
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:73 - no documents available for country :380_ITALY
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 380_ITALY
+27-05-2019 13:01:17 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 276_GERMANY.with thread: pool-1-thread-1
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 276_GERMANY
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:73 - no documents available for country :276_GERMANY
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 276_GERMANY
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:73 - no documents available for country :040_AUSTRIA
+27-05-2019 13:01:17 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 040_AUSTRIA
+27-05-2019 13:01:17 DEBUG ThreadRunner:60 -  All Threads are terminated ? - true
+27-05-2019 13:01:17 INFO  PreProcessorDAO:75 - Trying to close a connection instance for DB
+27-05-2019 13:01:22 INFO  DocumentLoaderMain:78 - ------------Document Loader Preprocessor Execution Process ENDS without High Availability settings.-----------
+27-05-2019 13:01:46 INFO  ResourceLoader:41 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+27-05-2019 13:01:46 INFO  ResourceLoader:77 - Properties Instantiation Completed.
+27-05-2019 13:01:46 DEBUG DocumentLoaderMain:33 - Main Thread Execution started : main
+27-05-2019 13:01:46 INFO  ProcessInitiator:226 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+27-05-2019 13:01:46 INFO  PreProcessorDAO:36 - Trying to get a new connection instance to DB
+27-05-2019 13:01:48 DEBUG PreProcessorDAO:177 - Entered a method to execute a DB Query
+27-05-2019 13:01:48 DEBUG ThreadRunner:56 - Awaiting Threads to complete before Termination
+27-05-2019 13:01:48 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 276_GERMANY.with thread: pool-1-thread-1
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 276_GERMANY
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:73 - no documents available for country :276_GERMANY
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 276_GERMANY
+27-05-2019 13:01:48 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 250_FRANCE.with thread: Processing_Thread_276_GERMANY
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 250_FRANCE
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:73 - no documents available for country :250_FRANCE
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 250_FRANCE
+27-05-2019 13:01:48 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 380_ITALY.with thread: pool-1-thread-3
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 380_ITALY
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:73 - no documents available for country :380_ITALY
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 380_ITALY
+27-05-2019 13:01:48 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 756_SWITZERLAND.with thread: pool-1-thread-2
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 756_SWITZERLAND
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:73 - no documents available for country :756_SWITZERLAND
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 756_SWITZERLAND
+27-05-2019 13:01:48 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 040_AUSTRIA.with thread: pool-1-thread-4
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 040_AUSTRIA
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:73 - no documents available for country :040_AUSTRIA
+27-05-2019 13:01:48 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 040_AUSTRIA
+27-05-2019 13:01:48 DEBUG ThreadRunner:60 -  All Threads are terminated ? - true
+27-05-2019 13:01:48 INFO  PreProcessorDAO:75 - Trying to close a connection instance for DB
+27-05-2019 13:01:53 INFO  DocumentLoaderMain:78 - ------------Document Loader Preprocessor Execution Process ENDS without High Availability settings.-----------
+27-05-2019 13:02:11 INFO  ResourceLoader:41 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+27-05-2019 13:02:11 INFO  ResourceLoader:77 - Properties Instantiation Completed.
+27-05-2019 13:02:11 DEBUG DocumentLoaderMain:33 - Main Thread Execution started : main
+27-05-2019 13:02:11 INFO  ProcessInitiator:226 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+27-05-2019 13:02:11 INFO  PreProcessorDAO:36 - Trying to get a new connection instance to DB
+27-05-2019 13:02:12 DEBUG PreProcessorDAO:177 - Entered a method to execute a DB Query
+27-05-2019 13:02:13 DEBUG ThreadRunner:56 - Awaiting Threads to complete before Termination
+27-05-2019 13:02:13 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 276_GERMANY.with thread: pool-1-thread-1
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 276_GERMANY
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:73 - no documents available for country :276_GERMANY
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 276_GERMANY
+27-05-2019 13:02:13 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 250_FRANCE.with thread: Processing_Thread_276_GERMANY
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 250_FRANCE
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:73 - no documents available for country :250_FRANCE
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 250_FRANCE
+27-05-2019 13:02:13 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 380_ITALY.with thread: pool-1-thread-3
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 380_ITALY
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:73 - no documents available for country :380_ITALY
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 380_ITALY
+27-05-2019 13:02:13 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 756_SWITZERLAND.with thread: pool-1-thread-2
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 756_SWITZERLAND
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:73 - no documents available for country :756_SWITZERLAND
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 756_SWITZERLAND
+27-05-2019 13:02:13 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 040_AUSTRIA.with thread: pool-1-thread-4
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 040_AUSTRIA
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:73 - no documents available for country :040_AUSTRIA
+27-05-2019 13:02:13 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 040_AUSTRIA
+27-05-2019 13:02:13 DEBUG ThreadRunner:60 -  All Threads are terminated ? - true
+27-05-2019 13:02:13 INFO  PreProcessorDAO:75 - Trying to close a connection instance for DB
+27-05-2019 13:02:18 INFO  DocumentLoaderMain:78 - ------------Document Loader Preprocessor Execution Process ENDS without High Availability settings.-----------
+27-05-2019 13:09:53 INFO  ResourceLoader:41 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+27-05-2019 13:09:53 INFO  ResourceLoader:77 - Properties Instantiation Completed.
+27-05-2019 13:09:53 DEBUG DocumentLoaderMain:33 - Main Thread Execution started : main
+27-05-2019 13:09:53 INFO  ProcessInitiator:226 - Pre-processing is executed by new thread: THREAD_JOBS_INITIATOR
+27-05-2019 13:09:53 INFO  PreProcessorDAO:36 - Trying to get a new connection instance to DB
+27-05-2019 13:09:55 DEBUG PreProcessorDAO:177 - Entered a method to execute a DB Query
+27-05-2019 13:09:55 DEBUG ThreadRunner:56 - Awaiting Threads to complete before Termination
+27-05-2019 13:09:55 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 756_SWITZERLAND.with thread: pool-1-thread-2
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 756_SWITZERLAND
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:73 - no documents available for country :756_SWITZERLAND
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 756_SWITZERLAND
+27-05-2019 13:09:55 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 250_FRANCE.with thread: Processing_Thread_756_SWITZERLAND
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 250_FRANCE
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:73 - no documents available for country :250_FRANCE
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 250_FRANCE
+27-05-2019 13:09:55 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 040_AUSTRIA.with thread: pool-1-thread-4
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 040_AUSTRIA
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:09:55 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 380_ITALY.with thread: pool-1-thread-3
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 380_ITALY
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:73 - no documents available for country :380_ITALY
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 380_ITALY
+27-05-2019 13:09:55 DEBUG ThreadRunner:89 - ThreadRunner :: Runner :: Runnable object is initialized for Country: 276_GERMANY.with thread: pool-1-thread-1
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:50 - Document Loader preProcessorServiceImpl : InitProcess() : Execution Started for Country - 276_GERMANY
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:52 - Document Loader preProcessorServiceImpl : InitProcess() : Checking for New Content
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:73 - no documents available for country :040_AUSTRIA
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 040_AUSTRIA
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:73 - no documents available for country :276_GERMANY
+27-05-2019 13:09:55 INFO  PreProcessorServiceImpl:76 - Document Loader preProcessorServiceImpl : InitProcess() : 0 - New documents Found for Country - 276_GERMANY
+27-05-2019 13:09:55 DEBUG ThreadRunner:60 -  All Threads are terminated ? - true
+27-05-2019 13:09:55 INFO  PreProcessorDAO:75 - Trying to close a connection instance for DB
+27-05-2019 13:10:00 INFO  DocumentLoaderMain:78 - ------------Document Loader Preprocessor Execution Process ENDS without High Availability settings.-----------

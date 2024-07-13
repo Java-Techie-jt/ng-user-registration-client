@@ -1,0 +1,5 @@
+projectKey=Email_Broker_Master
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/Email_Broker_Master
+ceTaskId=AWWpHp70s5MHmGMSemin
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWWpHp70s5MHmGMSemin

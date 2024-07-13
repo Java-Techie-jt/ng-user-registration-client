@@ -1,0 +1,3 @@
+25-06-2019 08:01:02 INFO  ResourceLoader:44 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+25-06-2019 08:01:02 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+25-06-2019 08:01:07 INFO  FolderCreateMain:51 - folder creation completed

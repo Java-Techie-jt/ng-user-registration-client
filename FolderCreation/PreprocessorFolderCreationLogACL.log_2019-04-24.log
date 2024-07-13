@@ -1,0 +1,537 @@
+24-04-2019 07:12:51 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 07:17:58 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 07:19:03 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 07:19:03 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 07:20:13 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 07:20:13 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 07:23:15 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 07:23:15 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 07:23:17 ERROR PreProcessorDAO:118 - com.ibm.db2.jcc.am.SqlDataException: DB2 SQL Error: SQLCODE=-302, SQLSTATE=22001, SQLERRMC=null, DRIVER=3.61.86
+24-04-2019 07:23:17 ERROR PreProcessorDAO:119 - Error occurred while executing query with sqlstate : 22001and error code : -302and message :DB2 SQL Error: SQLCODE=-302, SQLSTATE=22001, SQLERRMC=null, DRIVER=3.61.86
+24-04-2019 07:27:19 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 07:27:19 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 07:32:45 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 07:32:45 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 08:51:24 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 08:51:24 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 08:53:18 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 08:53:18 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 09:12:57 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 09:12:57 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 09:14:08 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 09:14:08 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 09:14:45 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 09:14:45 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 09:17:12 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 09:17:12 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 11:01:35 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 11:01:35 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 11:06:23 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 11:06:23 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 11:15:24 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 11:15:24 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 11:18:28 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 11:18:28 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 11:21:59 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 11:21:59 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 11:52:07 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 11:52:07 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 11:52:15 INFO  FolderCreateMain:44 - folder creation completed
+24-04-2019 14:18:38 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:18:38 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:18:44 INFO  FolderCreateMain:44 - folder creation completed
+24-04-2019 14:20:14 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:20:14 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:20:16 INFO  FolderCreateMain:44 - folder creation completed
+24-04-2019 14:20:52 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:20:52 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:20:54 INFO  FolderCreateMain:44 - folder creation completed
+24-04-2019 14:21:44 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:21:44 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:21:46 INFO  FolderCreateMain:44 - folder creation completed
+24-04-2019 14:26:18 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:26:18 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:26:21 INFO  FolderCreateMain:44 - folder creation completed
+24-04-2019 14:27:57 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:27:57 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:27:59 INFO  FolderCreateMain:47 - folder creation completed
+24-04-2019 14:34:35 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:34:35 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 14:34:35 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:34:43 INFO  FolderCreateMain:68 - into Type
+24-04-2019 14:34:43 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 14:34:43 INFO  FolderCreateMain:83 - create folder
+24-04-2019 14:34:43 INFO  FolderCreateMain:47 - folder creation completed
+24-04-2019 14:39:02 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:39:02 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 14:39:02 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:39:03 INFO  FolderCreateMain:68 - into Type
+24-04-2019 14:39:03 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 14:39:38 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 14:39:38 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 14:39:38 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 14:39:40 INFO  FolderCreateMain:68 - into Type
+24-04-2019 14:39:40 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 15:06:59 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 15:06:59 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 15:06:59 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 15:07:03 INFO  FolderCreateMain:68 - into Type
+24-04-2019 15:07:03 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 15:07:54 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 15:07:54 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 15:07:54 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 15:08:00 INFO  FolderCreateMain:68 - into Type
+24-04-2019 15:08:00 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 15:08:35 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 15:08:35 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 15:08:35 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 15:08:38 INFO  FolderCreateMain:68 - into Type
+24-04-2019 15:08:38 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 15:08:38 INFO  FolderCreateMain:83 - create folder
+24-04-2019 15:08:45 INFO  FolderCreateMain:47 - folder creation completed
+24-04-2019 17:43:48 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 17:43:48 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 17:43:48 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 17:43:52 INFO  FolderCreateMain:68 - into Type
+24-04-2019 17:43:52 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-37-4-Certificate-Registration-Compliance
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-4-Policy-Registration-Compliance
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-19-Certificate-Policy Documents-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-19-Policy-Registration-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-43-19-Policy-CAT Analysis-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-42-19-Policy-Multinational Programme Maintenance-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-19-Policy-Premium Audit-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-19-Policy-Reinsurance-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-37-19-Certificate-Registration-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-19-Policy-Policy Documents-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-43-19-Certificate-CAT Analysis-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-42-19-Certificate-Multinational Programme Maintenance-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-19-Certificate-Premium Audit-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-27-19-Certificate-Reinsurance-Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-24-Certificate-Policy Documents-Certificates
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-24-Policy-Reinsurance-Certificates
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-24-Policy-Policy Documents-Certificates
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-34-25-Certificate-Correspondence-Coinsurance
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-34-25-Policy-Correspondence-Coinsurance
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-33-Certificate-Policy Documents-Policy Wording
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-33-Policy-Registration-Policy Wording
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-33-Policy-Policy Documents-Policy Wording
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-34-79-Certificate-Correspondence-General Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-34-79-Policy-Correspondence-General Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-37-180-Certificate-Registration-Instructions
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-180-Policy-Registration-Instructions
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-27-187-Certificate-Reinsurance-Certificate
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-187-Policy-Reinsurance-Certificate
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-27-189-Certificate-Reinsurance-Contracts / Slips / Policy Wordings
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-189-Policy-Reinsurance-Contracts / Slips / Policy Wordings
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-217-Policy-Policy Documents-Policy
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-217-Certificate-Policy Documents-Policy
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-219-Certificate-Policy Documents-Reissue
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-219-Policy-Policy Documents-Reissue
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-220-Certificate-Policy Documents-Endorsements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-220-Policy-Policy Documents-Endorsements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-221-Certificate-Policy Documents-Reporter
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-221-Policy-Policy Documents-Reporter
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-222-Certificate-Policy Documents-Reinstatements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-222-Policy-Policy Documents-Reinstatements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-223-Certificate-Policy Documents-Cancellations
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-223-Policy-Policy Documents-Cancellations
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-224-Certificate-Policy Documents-Audit Endorsements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-224-Policy-Policy Documents-Audit Endorsements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-225-Certificate-Policy Documents-Application / Proposal
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-225-Policy-Policy Documents-Application / Proposal
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-226-Certificate-Policy Documents-NDA
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-226-Policy-Policy Documents-NDA
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-227-Certificate-Policy Documents-Non Renewal Notice
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-227-Policy-Policy Documents-Non Renewal Notice
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-228-Certificate-Policy Documents-Beneficiaries
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-228-Policy-Policy Documents-Beneficiaries
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-229-Certificate-Policy Documents-Binder / Cover Notes / Slips
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-229-Policy-Policy Documents-Binder / Cover Notes / Slips
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-230-Certificate-Policy Documents-Signed Documents
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-230-Policy-Policy Documents-Signed Documents
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-231-Certificate-Policy Documents-Tax Breakdown
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-231-Policy-Policy Documents-Tax Breakdown
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-232-Certificate-Policy Documents-Maintain Coverage Order
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-232-Policy-Policy Documents-Maintain Coverage Order
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-233-Certificate-Policy Documents-Internal Work Order
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-233-Policy-Policy Documents-Internal Work Order
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-236-Certificate-Policy Documents-Invoices
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-236-Policy-Registration-Invoices
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-236-Policy-Policy Documents-Invoices
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-36-236-Policy-Risk Management-Invoices
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-36-236-Certificate-Risk Management-Invoices
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-237-Certificate-Policy Documents-Assumed FAC RI
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-237-Policy-Policy Documents-Assumed FAC RI
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-33-238-Certificate-Policy Documents-Underlying Policy
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-238-Policy-Policy Documents-Underlying Policy
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-34-240-Certificate-Correspondence-Order to Bind
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-34-240-Policy-Correspondence-Order to Bind
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-34-241-Certificate-Correspondence-ACE Legal
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-34-241-Policy-Correspondence-ACE Legal
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-242-Certificate-Underwriting-Submission/Clearance
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-242-Policy-Underwriting-Submission/Clearance
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-243-Certificate-Underwriting-Rating
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-243-Policy-Underwriting-Rating
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-244-Certificate-Underwriting-Quote
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-244-Policy-Underwriting-Quote
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-245-Certificate-Underwriting-Underwriting Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-245-Policy-Reinsurance-Underwriting Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-245-Policy-Underwriting-Underwriting Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-27-245-Certificate-Reinsurance-Underwriting Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-246-Certificate-Underwriting-Price Monitor
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-246-Policy-Underwriting-Price Monitor
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-247-Certificate-Underwriting-Approval / Peer Review / Referral
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-247-Policy-Underwriting-Approval / Peer Review / Referral
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-248-Certificate-Underwriting-Statement of Value
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-248-Policy-Underwriting-Statement of Value
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-249-Certificate-Underwriting-Claims / Loss Runs
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-36-249-Policy-Risk Management-Claims / Loss Runs
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-249-Policy-Underwriting-Claims / Loss Runs
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-250-Certificate-Underwriting-Financial Data
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-250-Policy-Supporting Information-Financial Data
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-250-Policy-Underwriting-Financial Data
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-251-Certificate-Underwriting-Agreements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-251-Policy-Reinsurance-Agreements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-251-Policy-Underwriting-Agreements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-27-251-Certificate-Reinsurance-Agreements
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-252-Certificate-Underwriting-Schedules on File
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-252-Policy-Underwriting-Schedules on File
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-253-Certificate-Underwriting-CAT Analysis
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-253-Policy-Underwriting-CAT Analysis
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-254-Certificate-Underwriting-Global
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-254-Policy-Underwriting-Global
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-255-Certificate-Underwriting-Renewal Preparation
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-255-Policy-Underwriting-Renewal Preparation
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-256-Certificate-Underwriting-Negotiation / Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-256-Policy-Underwriting-Negotiation / Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-257-Certificate-Underwriting-Broker Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-257-Policy-Underwriting-Broker Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-36-258-Certificate-Risk Management-Report
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-36-258-Policy-Risk Management-Report
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-36-259-Certificate-Risk Management-Photos
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-36-259-Policy-Risk Management-Photos
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-36-260-Certificate-Risk Management-Correspondence/LOC
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-36-260-Policy-Risk Management-Correspondence/LOC
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-36-262-Certificate-Risk Management-Notes/Recommendations
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-36-262-Policy-Risk Management-Notes/Recommendations
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-36-263-Certificate-Risk Management-Plans
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-36-263-Policy-Risk Management-Plans
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-37-264-Certificate-Registration-Premium Registration
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-264-Policy-Registration-Premium Registration
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-37-267-Certificate-Registration-Surplus Lines
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-267-Policy-Registration-Surplus Lines
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-37-268-Certificate-Registration-Premium Book Entry
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-268-Policy-Registration-Premium Book Entry
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-37-269-Certificate-Registration-Credit Control Query
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-269-Policy-Reinsurance-Credit Control Query
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-37-269-Policy-Registration-Credit Control Query
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-27-275-Certificate-Reinsurance-Security Info / Approval
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-275-Policy-Reinsurance-Security Info / Approval
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-27-276-Certificate-Reinsurance-Reinsurance Map
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-27-276-Policy-Reinsurance-Reinsurance Map
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-277-Certificate-Premium Audit-Audit Worksheets
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-277-Policy-Premium Audit-Audit Worksheets
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-278-Certificate-Premium Audit-Quality Control
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-1-278-Policy-Audit-Quality Control
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-278-Policy-Premium Audit-Quality Control
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-1-278-Certificate-Audit-Quality Control
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-279-Certificate-Premium Audit-Questionnaire/Letters
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-279-Policy-Premium Audit-Questionnaire/Letters
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-281-Certificate-Premium Audit-ROA/SOA
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-281-Policy-Premium Audit-ROA/SOA
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-282-Certificate-Premium Audit-Direct Registration
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-282-Policy-Premium Audit-Direct Registration
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-283-Certificate-Premium Audit-Ceded Registration
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-283-Policy-Premium Audit-Ceded Registration
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-39-284-Certificate-Premium Audit-Test Audits
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-39-284-Policy-Premium Audit-Test Audits
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-40-285-Certificate-Archive-Backfile Archive
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-40-285-Policy-Archive-Backfile Archive
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-41-286-Certificate-Supporting Information-Brochures
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-286-Policy-Supporting Information-Brochures
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-41-287-Certificate-Supporting Information-Declarations
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-287-Policy-Supporting Information-Declarations
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-41-288-Certificate-Supporting Information-Summary Information/Risk Summary
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-288-Policy-Supporting Information-Summary Information/Risk Summary
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-41-289-Certificate-Supporting Information-Supplementary Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-289-Policy-Supporting Information-Supplementary Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-42-289-Policy-Multinational Programme Maintenance-Supplementary Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-41-290-Certificate-Supporting Information-Media Articles
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-290-Policy-Supporting Information-Media Articles
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-41-291-Certificate-Supporting Information-War/Terrorism/Political Risks
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-291-Policy-Supporting Information-War/Terrorism/Political Risks
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-41-292-Certificate-Supporting Information-Tax Estimation
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-41-292-Policy-Supporting Information-Tax Estimation
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-42-293-Certificate-Multinational Programme Maintenance-Implementation Instructions
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-42-293-Policy-Multinational Programme Maintenance-Implementation Instructions
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-42-294-Certificate-Multinational Programme Maintenance-Supplemental Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-42-294-Policy-Multinational Programme Maintenance-Supplemental Information
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-42-296-Certificate-Multinational Programme Maintenance-Country Allocation
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-42-296-Policy-Multinational Programme Maintenance-Country Allocation
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-42-297-Certificate-Multinational Programme Maintenance-Premium Cessions
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-42-297-Policy-Multinational Programme Maintenance-Premium Cessions
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-43-298-Certificate-CAT Analysis-Analysis Request Proforma
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-43-298-Policy-CAT Analysis-Analysis Request Proforma
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-43-299-Certificate-CAT Analysis-Analysis Results
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-43-299-Policy-CAT Analysis-Analysis Results
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-1-302-Certificate-Audit-Audit
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-1-302-Policy-Audit-Audit
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-35-312-Certificate-Underwriting-Approved Authority by Email
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-57-312-Policy-Approved-Approved Authority by Email
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-312-Policy-Underwriting-Approved Authority by Email
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 13-18-328-Certificate-Medical-Medical Report
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-18-328-Policy-Medical-Medical Report
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-346-Policy-Policy Documents-Migrated
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-33-356-Policy-Policy Documents-Submission Correspondence
+24-04-2019 17:43:53 INFO  PreProcessorDAO:152 - 1-35-356-Policy-Underwriting-Submission Correspondence
+24-04-2019 17:43:53 INFO  FolderCreateMain:83 - create folder
+24-04-2019 17:43:57 INFO  FolderCreateMain:47 - folder creation completed
+24-04-2019 17:44:52 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 17:44:53 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 17:44:53 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 17:44:54 INFO  FolderCreateMain:68 - into Type
+24-04-2019 17:44:54 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-242-Policy-Underwriting-Submission/Clearance
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-243-Policy-Underwriting-Rating
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-244-Policy-Underwriting-Quote
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-245-Policy-Underwriting-Underwriting Information
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-246-Policy-Underwriting-Price Monitor
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-247-Policy-Underwriting-Approval / Peer Review / Referral
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-248-Policy-Underwriting-Statement of Value
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-249-Policy-Underwriting-Claims / Loss Runs
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-250-Policy-Underwriting-Financial Data
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-251-Policy-Underwriting-Agreements
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-252-Policy-Underwriting-Schedules on File
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-253-Policy-Underwriting-CAT Analysis
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-254-Policy-Underwriting-Global
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-255-Policy-Underwriting-Renewal Preparation
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-256-Policy-Underwriting-Negotiation / Correspondence
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-257-Policy-Underwriting-Broker Information
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-312-Policy-Underwriting-Approved Authority by Email
+24-04-2019 17:44:54 INFO  PreProcessorDAO:152 - 1-35-356-Policy-Underwriting-Submission Correspondence
+24-04-2019 17:44:54 INFO  FolderCreateMain:83 - create folder
+24-04-2019 17:44:54 INFO  FolderCreateMain:47 - folder creation completed
+24-04-2019 17:49:08 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 17:49:08 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 17:49:08 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 17:49:10 INFO  FolderCreateMain:68 - into Type
+24-04-2019 17:49:10 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-242-Policy-Underwriting-Submission/Clearance
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-243-Policy-Underwriting-Rating
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-244-Policy-Underwriting-Quote
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-245-Policy-Underwriting-Underwriting Information
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-246-Policy-Underwriting-Price Monitor
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-247-Policy-Underwriting-Approval / Peer Review / Referral
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-248-Policy-Underwriting-Statement of Value
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-249-Policy-Underwriting-Claims / Loss Runs
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-250-Policy-Underwriting-Financial Data
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-251-Policy-Underwriting-Agreements
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-252-Policy-Underwriting-Schedules on File
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-253-Policy-Underwriting-CAT Analysis
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-254-Policy-Underwriting-Global
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-255-Policy-Underwriting-Renewal Preparation
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-256-Policy-Underwriting-Negotiation / Correspondence
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-257-Policy-Underwriting-Broker Information
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-312-Policy-Underwriting-Approved Authority by Email
+24-04-2019 17:49:10 INFO  PreProcessorDAO:152 - 1-35-356-Policy-Underwriting-Submission Correspondence
+24-04-2019 17:49:10 INFO  FolderCreateMain:83 - create folder
+24-04-2019 17:49:11 INFO  FolderCreateMain:47 - folder creation completed
+24-04-2019 17:51:25 INFO  ResourceLoader:43 - ResourceLoader :: Log4j, Connection Environment Configurations Loaded
+24-04-2019 17:51:25 INFO  FolderCreateMain:54 - into getCountryName
+24-04-2019 17:51:25 INFO  PreProcessorDAO:31 - Trying to get a new connection instance to DB
+24-04-2019 17:51:27 INFO  FolderCreateMain:68 - into Type
+24-04-2019 17:51:27 INFO  PreProcessorDAO:127 - get Types DAO
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-37-4-Certificate-Registration-Compliance
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-4-Policy-Registration-Compliance
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-19-Certificate-Policy Documents-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-19-Policy-Registration-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-43-19-Policy-CAT Analysis-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-42-19-Policy-Multinational Programme Maintenance-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-19-Policy-Premium Audit-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-19-Policy-Reinsurance-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-37-19-Certificate-Registration-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-19-Policy-Policy Documents-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-43-19-Certificate-CAT Analysis-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-42-19-Certificate-Multinational Programme Maintenance-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-19-Certificate-Premium Audit-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-27-19-Certificate-Reinsurance-Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-24-Certificate-Policy Documents-Certificates
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-24-Policy-Reinsurance-Certificates
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-24-Policy-Policy Documents-Certificates
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-34-25-Certificate-Correspondence-Coinsurance
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-34-25-Policy-Correspondence-Coinsurance
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-33-Certificate-Policy Documents-Policy Wording
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-33-Policy-Registration-Policy Wording
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-33-Policy-Policy Documents-Policy Wording
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-34-79-Certificate-Correspondence-General Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-34-79-Policy-Correspondence-General Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-37-180-Certificate-Registration-Instructions
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-180-Policy-Registration-Instructions
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-27-187-Certificate-Reinsurance-Certificate
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-187-Policy-Reinsurance-Certificate
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-27-189-Certificate-Reinsurance-Contracts / Slips / Policy Wordings
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-189-Policy-Reinsurance-Contracts / Slips / Policy Wordings
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-217-Policy-Policy Documents-Policy
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-217-Certificate-Policy Documents-Policy
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-219-Certificate-Policy Documents-Reissue
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-219-Policy-Policy Documents-Reissue
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-220-Certificate-Policy Documents-Endorsements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-220-Policy-Policy Documents-Endorsements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-221-Certificate-Policy Documents-Reporter
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-221-Policy-Policy Documents-Reporter
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-222-Certificate-Policy Documents-Reinstatements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-222-Policy-Policy Documents-Reinstatements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-223-Certificate-Policy Documents-Cancellations
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-223-Policy-Policy Documents-Cancellations
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-224-Certificate-Policy Documents-Audit Endorsements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-224-Policy-Policy Documents-Audit Endorsements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-225-Certificate-Policy Documents-Application / Proposal
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-225-Policy-Policy Documents-Application / Proposal
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-226-Certificate-Policy Documents-NDA
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-226-Policy-Policy Documents-NDA
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-227-Certificate-Policy Documents-Non Renewal Notice
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-227-Policy-Policy Documents-Non Renewal Notice
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-228-Certificate-Policy Documents-Beneficiaries
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-228-Policy-Policy Documents-Beneficiaries
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-229-Certificate-Policy Documents-Binder / Cover Notes / Slips
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-229-Policy-Policy Documents-Binder / Cover Notes / Slips
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-230-Certificate-Policy Documents-Signed Documents
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-230-Policy-Policy Documents-Signed Documents
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-231-Certificate-Policy Documents-Tax Breakdown
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-231-Policy-Policy Documents-Tax Breakdown
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-232-Certificate-Policy Documents-Maintain Coverage Order
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-232-Policy-Policy Documents-Maintain Coverage Order
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-233-Certificate-Policy Documents-Internal Work Order
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-233-Policy-Policy Documents-Internal Work Order
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-236-Certificate-Policy Documents-Invoices
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-236-Policy-Registration-Invoices
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-236-Policy-Policy Documents-Invoices
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-36-236-Policy-Risk Management-Invoices
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-36-236-Certificate-Risk Management-Invoices
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-237-Certificate-Policy Documents-Assumed FAC RI
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-237-Policy-Policy Documents-Assumed FAC RI
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-33-238-Certificate-Policy Documents-Underlying Policy
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-238-Policy-Policy Documents-Underlying Policy
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-34-240-Certificate-Correspondence-Order to Bind
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-34-240-Policy-Correspondence-Order to Bind
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-34-241-Certificate-Correspondence-ACE Legal
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-34-241-Policy-Correspondence-ACE Legal
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-242-Certificate-Underwriting-Submission/Clearance
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-242-Policy-Underwriting-Submission/Clearance
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-243-Certificate-Underwriting-Rating
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-243-Policy-Underwriting-Rating
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-244-Certificate-Underwriting-Quote
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-244-Policy-Underwriting-Quote
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-245-Certificate-Underwriting-Underwriting Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-245-Policy-Reinsurance-Underwriting Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-245-Policy-Underwriting-Underwriting Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-27-245-Certificate-Reinsurance-Underwriting Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-246-Certificate-Underwriting-Price Monitor
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-246-Policy-Underwriting-Price Monitor
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-247-Certificate-Underwriting-Approval / Peer Review / Referral
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-247-Policy-Underwriting-Approval / Peer Review / Referral
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-248-Certificate-Underwriting-Statement of Value
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-248-Policy-Underwriting-Statement of Value
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-249-Certificate-Underwriting-Claims / Loss Runs
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-36-249-Policy-Risk Management-Claims / Loss Runs
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-249-Policy-Underwriting-Claims / Loss Runs
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-250-Certificate-Underwriting-Financial Data
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-250-Policy-Supporting Information-Financial Data
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-250-Policy-Underwriting-Financial Data
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-251-Certificate-Underwriting-Agreements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-251-Policy-Reinsurance-Agreements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-251-Policy-Underwriting-Agreements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-27-251-Certificate-Reinsurance-Agreements
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-252-Certificate-Underwriting-Schedules on File
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-252-Policy-Underwriting-Schedules on File
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-253-Certificate-Underwriting-CAT Analysis
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-253-Policy-Underwriting-CAT Analysis
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-254-Certificate-Underwriting-Global
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-254-Policy-Underwriting-Global
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-255-Certificate-Underwriting-Renewal Preparation
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-255-Policy-Underwriting-Renewal Preparation
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-256-Certificate-Underwriting-Negotiation / Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-256-Policy-Underwriting-Negotiation / Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-257-Certificate-Underwriting-Broker Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-257-Policy-Underwriting-Broker Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-36-258-Certificate-Risk Management-Report
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-36-258-Policy-Risk Management-Report
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-36-259-Certificate-Risk Management-Photos
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-36-259-Policy-Risk Management-Photos
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-36-260-Certificate-Risk Management-Correspondence/LOC
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-36-260-Policy-Risk Management-Correspondence/LOC
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-36-262-Certificate-Risk Management-Notes/Recommendations
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-36-262-Policy-Risk Management-Notes/Recommendations
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-36-263-Certificate-Risk Management-Plans
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-36-263-Policy-Risk Management-Plans
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-37-264-Certificate-Registration-Premium Registration
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-264-Policy-Registration-Premium Registration
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-37-267-Certificate-Registration-Surplus Lines
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-267-Policy-Registration-Surplus Lines
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-37-268-Certificate-Registration-Premium Book Entry
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-268-Policy-Registration-Premium Book Entry
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-37-269-Certificate-Registration-Credit Control Query
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-269-Policy-Reinsurance-Credit Control Query
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-37-269-Policy-Registration-Credit Control Query
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-27-275-Certificate-Reinsurance-Security Info / Approval
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-275-Policy-Reinsurance-Security Info / Approval
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-27-276-Certificate-Reinsurance-Reinsurance Map
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-27-276-Policy-Reinsurance-Reinsurance Map
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-277-Certificate-Premium Audit-Audit Worksheets
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-277-Policy-Premium Audit-Audit Worksheets
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-278-Certificate-Premium Audit-Quality Control
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-1-278-Policy-Audit-Quality Control
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-278-Policy-Premium Audit-Quality Control
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-1-278-Certificate-Audit-Quality Control
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-279-Certificate-Premium Audit-Questionnaire/Letters
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-279-Policy-Premium Audit-Questionnaire/Letters
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-281-Certificate-Premium Audit-ROA/SOA
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-281-Policy-Premium Audit-ROA/SOA
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-282-Certificate-Premium Audit-Direct Registration
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-282-Policy-Premium Audit-Direct Registration
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-283-Certificate-Premium Audit-Ceded Registration
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-283-Policy-Premium Audit-Ceded Registration
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-39-284-Certificate-Premium Audit-Test Audits
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-39-284-Policy-Premium Audit-Test Audits
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-40-285-Certificate-Archive-Backfile Archive
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-40-285-Policy-Archive-Backfile Archive
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-41-286-Certificate-Supporting Information-Brochures
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-286-Policy-Supporting Information-Brochures
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-41-287-Certificate-Supporting Information-Declarations
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-287-Policy-Supporting Information-Declarations
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-41-288-Certificate-Supporting Information-Summary Information/Risk Summary
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-288-Policy-Supporting Information-Summary Information/Risk Summary
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-41-289-Certificate-Supporting Information-Supplementary Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-289-Policy-Supporting Information-Supplementary Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-42-289-Policy-Multinational Programme Maintenance-Supplementary Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-41-290-Certificate-Supporting Information-Media Articles
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-290-Policy-Supporting Information-Media Articles
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-41-291-Certificate-Supporting Information-War/Terrorism/Political Risks
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-291-Policy-Supporting Information-War/Terrorism/Political Risks
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-41-292-Certificate-Supporting Information-Tax Estimation
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-41-292-Policy-Supporting Information-Tax Estimation
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-42-293-Certificate-Multinational Programme Maintenance-Implementation Instructions
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-42-293-Policy-Multinational Programme Maintenance-Implementation Instructions
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-42-294-Certificate-Multinational Programme Maintenance-Supplemental Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-42-294-Policy-Multinational Programme Maintenance-Supplemental Information
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-42-296-Certificate-Multinational Programme Maintenance-Country Allocation
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-42-296-Policy-Multinational Programme Maintenance-Country Allocation
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-42-297-Certificate-Multinational Programme Maintenance-Premium Cessions
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-42-297-Policy-Multinational Programme Maintenance-Premium Cessions
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-43-298-Certificate-CAT Analysis-Analysis Request Proforma
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-43-298-Policy-CAT Analysis-Analysis Request Proforma
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-43-299-Certificate-CAT Analysis-Analysis Results
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-43-299-Policy-CAT Analysis-Analysis Results
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-1-302-Certificate-Audit-Audit
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-1-302-Policy-Audit-Audit
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-35-312-Certificate-Underwriting-Approved Authority by Email
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-57-312-Policy-Approved-Approved Authority by Email
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-312-Policy-Underwriting-Approved Authority by Email
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 13-18-328-Certificate-Medical-Medical Report
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-18-328-Policy-Medical-Medical Report
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-346-Policy-Policy Documents-Migrated
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-33-356-Policy-Policy Documents-Submission Correspondence
+24-04-2019 17:51:27 INFO  PreProcessorDAO:152 - 1-35-356-Policy-Underwriting-Submission Correspondence
+24-04-2019 17:51:27 INFO  FolderCreateMain:83 - create folder
+24-04-2019 17:51:31 INFO  FolderCreateMain:47 - folder creation completed

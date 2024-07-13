@@ -1,0 +1,127 @@
+08-04-2019 10:32:43 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 10:32:43 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 10:40:46 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 10:40:46 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 10:42:42 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 10:42:42 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 10:42:43 [main] : INFO  PreProcessorDAO:95 - policy availabletrue
+08-04-2019 10:42:43 [main] : INFO  PreProcessorDAO:101 - policy availablefalse
+08-04-2019 10:43:51 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 10:43:51 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 10:43:52 [main] : INFO  PreProcessorDAO:95 - policy availabletrue
+08-04-2019 10:43:52 [main] : INFO  PreProcessorDAO:101 - policy availableFA_20019
+08-04-2019 10:48:35 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 10:48:35 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 10:48:36 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 10:48:36 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 10:48:36 [main] : INFO  CertificateServiceMain:40 - into verificate to create cert
+08-04-2019 10:49:53 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 10:49:53 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 10:49:55 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 10:49:55 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 10:49:55 [main] : INFO  CertificateServiceMain:39 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 10:49:55 [main] : INFO  CertificateServiceMain:40 - into verificate to create cert
+08-04-2019 10:51:34 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 10:51:34 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 10:51:35 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 10:51:35 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 10:51:35 [main] : INFO  CertificateServiceMain:39 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 10:51:35 [main] : INFO  CertificateServiceMain:40 - into verificate to create cert
+08-04-2019 11:28:44 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 11:28:44 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 11:28:47 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 11:28:47 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 11:28:47 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 11:28:47 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 11:28:50 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: Failed to access the WSDL at: https://uk01deca054.aceins.com:444/WorkView/CertificateService/CertificateService.svc?wsdl. It failed with: 
+	java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty.
+08-04-2019 11:37:34 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 11:37:34 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 11:37:36 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 11:37:36 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 11:37:36 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 11:37:36 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 11:37:36 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: Failed to access the WSDL at: https://uk01deca054.aceins.com:444/WorkView/CertificateService/CertificateService.svc?wsdl. It failed with: 
+	java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty.
+08-04-2019 11:47:08 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 11:47:08 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 11:47:11 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 11:47:11 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 11:47:11 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 11:47:11 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 11:47:13 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: Failed to access the WSDL at: https://uk01deca054.aceins.com:444/WorkView/CertificateService/CertificateService.svc?wsdl. It failed with: 
+	java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty.
+08-04-2019 11:48:37 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 11:48:37 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 11:48:38 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 11:48:38 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 11:48:38 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 11:48:38 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 11:48:39 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: Failed to access the WSDL at: https://uk01deca054.aceins.com:444/WorkView/CertificateService/CertificateService.svc?wsdl. It failed with: 
+	java.lang.RuntimeException: Unexpected error: java.security.InvalidAlgorithmParameterException: the trustAnchors parameter must be non-empty.
+08-04-2019 11:55:37 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 11:55:37 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 11:55:39 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 11:55:39 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 11:55:39 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 11:55:39 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 11:55:45 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: {http://Chubb.com/WorkView/CertificateService}CertificateService is not a valid service. Valid services are: {http://Chubb.com/WorkView/CertificateService/2016/06}CertificateService
+08-04-2019 12:08:04 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 12:08:04 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 12:08:10 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 12:08:10 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 12:08:10 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 12:08:10 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 12:08:16 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: {http://Chubb.com/WorkView/CertificateService}CertificateService is not a valid service. Valid services are: {http://Chubb.com/WorkView/CertificateService/2016/06}CertificateService
+08-04-2019 12:12:32 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 12:12:32 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 12:12:38 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 12:12:38 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 12:12:38 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 12:12:38 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 12:12:44 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: {http://Chubb.com/CertificateService}CertificateService is not a valid service. Valid services are: {http://Chubb.com/WorkView/CertificateService/2016/06}CertificateService
+08-04-2019 12:14:37 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 12:14:37 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 12:14:38 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 12:14:38 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 12:14:38 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 12:14:38 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 12:14:39 [main] : ERROR CertificateWebServiceConnection:68 - Error occured while creating Certificate requestjavax.xml.ws.WebServiceException: {http://Chubb.com/CertificateService}CertificateService is not a valid service. Valid services are: {http://Chubb.com/WorkView/CertificateService/2016/06}CertificateService
+08-04-2019 13:14:43 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+08-04-2019 13:14:43 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+08-04-2019 13:14:46 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+08-04-2019 13:14:46 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+08-04-2019 13:14:46 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- FA_20019 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+08-04-2019 13:14:46 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+08-04-2019 13:14:49 [main] : INFO  CertificateWebServiceConnection:51 - About to call over https
+08-04-2019 13:14:54 [main] : INFO  JaxWsLoggingHandler:50 - OUTBOUND MESSAGE
+
+08-04-2019 13:14:54 [main] : INFO  JaxWsLoggingHandler:54 - <S:Envelope xmlns:S="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope"><S:Header><To xmlns="http://www.w3.org/2005/08/addressing">https://uk01deca054.aceins.com:444/WorkView/CertificateService/CertificateService.svc</To><Action xmlns="http://www.w3.org/2005/08/addressing" S:mustUnderstand="true">CreateOrUpdateCertificate</Action><ReplyTo xmlns="http://www.w3.org/2005/08/addressing">
+    <Address>http://www.w3.org/2005/08/addressing/anonymous</Address>
+</ReplyTo><FaultTo xmlns="http://www.w3.org/2005/08/addressing">
+    <Address>http://www.w3.org/2005/08/addressing/anonymous</Address>
+</FaultTo><MessageID xmlns="http://www.w3.org/2005/08/addressing">uuid:a0bbbb0d-e9ce-407c-95f8-95e48e83c0d9</MessageID></S:Header><S:Body><CreateOrUpdateCertificate xmlns="http://Chubb.com/WorkView/CertificateService/2016/06" xmlns:ns2="http://schemas.datacontract.org/2004/07/Chubb.WorkView.CertificateService.DataContracts" xmlns:ns3="http://schemas.microsoft.com/2003/10/Serialization/"><request><CertificateDetails><CertificateRequest><CertificateInfoRequest><CertificateNumber>ADPPH0000152865</CertificateNumber><PolicyNumber>FA_20019</PolicyNumber><CertificateName>durga</CertificateName><EntityCode>3KG</EntityCode><CreatedDate>2019-04-08T13:14:46.494+01:00</CreatedDate></CertificateInfoRequest><CorrespondentInfoRequest><CorrespondentName>durga</CorrespondentName><ContactName>durga</ContactName></CorrespondentInfoRequest></CertificateRequest></CertificateDetails><EnvironmentData><ns2:CountryCode>PH</ns2:CountryCode><ns2:MessageGUID>-55b52637169fcdf4b29-8000</ns2:MessageGUID><ns2:SourceSystem>CS</ns2:SourceSystem><ns2:WorkViewEnvironment>SIT</ns2:WorkViewEnvironment><ns2:WorkViewLogonID>apcluw</ns2:WorkViewLogonID></EnvironmentData></request></CreateOrUpdateCertificate></S:Body></S:Envelope>
+08-04-2019 13:15:00 [main] : INFO  JaxWsLoggingHandler:52 - INBOUND MESSAGE
+
+08-04-2019 13:15:00 [main] : INFO  JaxWsLoggingHandler:54 - <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:env="http://www.w3.org/2003/05/soap-envelope"><s:Header><a:Action s:mustUnderstand="1">http://Chubb.com/WorkView/CertificateService/2016/06/CertificateService/CreateOrUpdateCertificateResponse</a:Action><ActivityId xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics" CorrelationId="23791993-ac66-4ab2-837f-17533218869c">94b7ec51-5469-4066-b38d-1bc739bfce59</ActivityId><a:RelatesTo>uuid:a0bbbb0d-e9ce-407c-95f8-95e48e83c0d9</a:RelatesTo></s:Header><s:Body><CreateOrUpdateCertificateResponse xmlns="http://Chubb.com/WorkView/CertificateService/2016/06"><CreateOrUpdateCertificateResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><OverAllResult>Fail</OverAllResult><CertificateResponseDetails><CertificateResponse><CertificateNumber>ADPPH0000152865</CertificateNumber><PolicyNumber>FA_20019</PolicyNumber><Result>Failure</Result><Status>false</Status><Description>CertificateNumber: ADPPH0000152865 didn't processed because of correspondent service failure - Corr_int_id : 105438674</Description></CertificateResponse></CertificateResponseDetails></CreateOrUpdateCertificateResult></CreateOrUpdateCertificateResponse></s:Body></s:Envelope>
+08-04-2019 13:15:00 [main] : INFO  CertificateWebServiceConnection:60 - Request Posted Successfully
+08-04-2019 13:15:00 [main] : INFO  CertificateWebServiceConnection:79 - Fail Response from the server
+09-04-2019 06:21:14 [main] : INFO  ResourceLoader:28 - ResourceLoader :: LOG4j, Connection Environment Configurations Loaded
+09-04-2019 06:21:14 [main] : INFO  PreProcessorDAO:30 - Trying to get a new connection instance to DB
+09-04-2019 06:21:20 [main] : INFO  PreProcessorDAO:96 - policy availableMASTER_POLICY_CHECK
+09-04-2019 06:21:20 [main] : INFO  PreProcessorDAO:100 - policy availabletrue
+09-04-2019 06:21:21 [main] : INFO  CertificateServiceMain:41 - One of the input field is empty : certNumADPPH0000152865 -policyNum- ITPA31935 -certiName- durga -entityCode- 3KG -ctryCode- 608 -sourceSystem- CS
+09-04-2019 06:21:21 [main] : INFO  CertificateServiceMain:42 - into verificate to create cert
+09-04-2019 06:21:26 [main] : INFO  CertificateWebServiceConnection:51 - About to call over https
+09-04-2019 06:21:31 [main] : INFO  JaxWsLoggingHandler:50 - OUTBOUND MESSAGE
+
+09-04-2019 06:21:31 [main] : INFO  JaxWsLoggingHandler:54 - <S:Envelope xmlns:S="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope"><S:Header><To xmlns="http://www.w3.org/2005/08/addressing">https://sg01uaavdcw01.aceins.com/WorkView/CertificateService/CertificateService.svc</To><Action xmlns="http://www.w3.org/2005/08/addressing" S:mustUnderstand="true">CreateOrUpdateCertificate</Action><ReplyTo xmlns="http://www.w3.org/2005/08/addressing">
+    <Address>http://www.w3.org/2005/08/addressing/anonymous</Address>
+</ReplyTo><FaultTo xmlns="http://www.w3.org/2005/08/addressing">
+    <Address>http://www.w3.org/2005/08/addressing/anonymous</Address>
+</FaultTo><MessageID xmlns="http://www.w3.org/2005/08/addressing">uuid:090e6671-b0ab-4dbf-bcac-cd79aec4e4d1</MessageID></S:Header><S:Body><CreateOrUpdateCertificate xmlns="http://Chubb.com/WorkView/CertificateService/2016/06" xmlns:ns2="http://schemas.datacontract.org/2004/07/Chubb.WorkView.CertificateService.DataContracts" xmlns:ns3="http://schemas.microsoft.com/2003/10/Serialization/"><request><CertificateDetails><CertificateRequest><CertificateInfoRequest><CertificateNumber>ADPPH0000152865</CertificateNumber><PolicyNumber>ITPA31935</PolicyNumber><CertificateName>durga</CertificateName><EntityCode>3KG</EntityCode><CreatedDate>2019-04-09T06:21:21.532+01:00</CreatedDate></CertificateInfoRequest><CorrespondentInfoRequest><CorrespondentName>durga</CorrespondentName><ContactName>durga</ContactName></CorrespondentInfoRequest></CertificateRequest></CertificateDetails><EnvironmentData><ns2:CountryCode>PH</ns2:CountryCode><ns2:MessageGUID>2239b89316a008b2925-8000</ns2:MessageGUID><ns2:SourceSystem>CS</ns2:SourceSystem><ns2:WorkViewEnvironment>UAT</ns2:WorkViewEnvironment><ns2:WorkViewLogonID>apcluw</ns2:WorkViewLogonID></EnvironmentData></request></CreateOrUpdateCertificate></S:Body></S:Envelope>
+09-04-2019 06:21:33 [main] : INFO  JaxWsLoggingHandler:52 - INBOUND MESSAGE
+
+09-04-2019 06:21:33 [main] : INFO  JaxWsLoggingHandler:54 - <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:env="http://www.w3.org/2003/05/soap-envelope"><s:Header><a:Action s:mustUnderstand="1">http://Chubb.com/WorkView/CertificateService/2016/06/CertificateService/CreateOrUpdateCertificateResponse</a:Action><a:RelatesTo>uuid:090e6671-b0ab-4dbf-bcac-cd79aec4e4d1</a:RelatesTo></s:Header><s:Body><CreateOrUpdateCertificateResponse xmlns="http://Chubb.com/WorkView/CertificateService/2016/06"><CreateOrUpdateCertificateResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><OverAllResult>Success</OverAllResult><CertificateResponseDetails><CertificateResponse><CertificateNumber>ADPPH0000152865</CertificateNumber><PolicyNumber>ITPA31935</PolicyNumber><Result>Success</Result><Status>true</Status><Description>CertificateNumber: ADPPH0000152865 Added Successfully</Description></CertificateResponse></CertificateResponseDetails></CreateOrUpdateCertificateResult></CreateOrUpdateCertificateResponse></s:Body></s:Envelope>
+09-04-2019 06:21:33 [main] : INFO  CertificateWebServiceConnection:60 - Request Posted Successfully
+09-04-2019 06:21:33 [main] : INFO  CertificateServiceMain:54 - certificate Created

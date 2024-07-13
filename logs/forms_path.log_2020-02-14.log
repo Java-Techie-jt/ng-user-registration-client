@@ -1,0 +1,61 @@
+14-02-2020 05:33:26 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 05:33:30 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 05:33:31 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+14-02-2020 05:35:22 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 05:35:22 INFO  FileUtilities:40 - retun true
+14-02-2020 05:35:24 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 05:35:27 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+14-02-2020 05:37:57 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - BR
+14-02-2020 05:37:57 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 05:37:57 ERROR FileUtilities:43 - 
+14-02-2020 05:37:57 INFO  FileUtilities:45 - Input Shared folder Path is corrupted or not having require permissions for:BR
+14-02-2020 05:37:57 INFO  FileUtilities:46 - Please check folder existence or permissions 
+14-02-2020 05:37:59 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 05:38:02 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+14-02-2020 05:38:33 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - BR
+14-02-2020 05:38:33 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 05:38:34 INFO  Encryption:60 - Error while decrypting: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+14-02-2020 05:38:34 INFO  Encryption:60 - Error while decrypting: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+14-02-2020 05:38:34 INFO  PreProcessorServiceImpl:84 - InitProcess :: Error occurred while calling SP  com.chubb.workview.interfaces.service.DBConnectionError: DBERROR : 
+14-02-2020 05:38:34 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 05:38:34 INFO  PreProcessorServiceImpl:84 - InitProcess :: Error occurred while calling SP  com.chubb.workview.interfaces.service.DBConnectionError: DBERROR : 
+14-02-2020 05:38:34 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:BR
+14-02-2020 05:38:38 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+14-02-2020 05:41:38 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 05:41:38 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - BR
+14-02-2020 05:41:39 INFO  Encryption:60 - Error while decrypting: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+14-02-2020 05:41:39 INFO  Encryption:60 - Error while decrypting: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+14-02-2020 05:41:40 INFO  PreProcessorServiceImpl:84 - InitProcess :: Error occurred while calling SP  com.chubb.workview.interfaces.service.DBConnectionError: DBERROR : 
+14-02-2020 05:41:40 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 05:41:40 INFO  PreProcessorServiceImpl:84 - InitProcess :: Error occurred while calling SP  com.chubb.workview.interfaces.service.DBConnectionError: DBERROR : 
+14-02-2020 05:41:40 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:BR
+14-02-2020 05:41:43 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+14-02-2020 05:45:43 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 05:45:43 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - BR
+14-02-2020 05:45:44 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 05:45:44 INFO  PreProcessorServiceImpl:101 - Passed
+14-02-2020 05:45:44 INFO  PreProcessorServiceImpl:149 - 0017152C.pdf doen't find out in shared folder move to next Record and status updated as N
+14-02-2020 05:45:44 INFO  PreProcessorServiceImpl:181 - New recordes are not found in DataBase for:BR
+14-02-2020 05:45:48 INFO  PreProcessorMain:64 - ------------FormsPath Preprocessor Execution Process ENDS without High Availability settings.-----------
+14-02-2020 14:00:06 INFO  ResourceLoader:59 - Environment with High_Availability loaded successfully
+14-02-2020 14:00:06 FATAL PreProcessorMain:153 - PreprocessorMain :: Main :: Unhandled exception occurred in the program and Exiting execution. Error : null
+java.lang.NullPointerException
+	at com.chubb.workview.interfaces.preprocessor.PreProcessorMain.main(PreProcessorMain.java:70)
+14-02-2020 14:01:55 INFO  ResourceLoader:59 - Environment with High_Availability loaded successfully
+14-02-2020 14:01:56 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - BR
+14-02-2020 14:01:56 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 14:02:02 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:BR
+14-02-2020 14:02:02 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 14:02:05 INFO  PreProcessorMain:102 - ------------FormsPath Preprocessor Execution Process ENDS with High Availability settings.-----------
+14-02-2020 14:02:52 INFO  ResourceLoader:59 - Environment with High_Availability loaded successfully
+14-02-2020 14:02:52 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 14:02:52 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - BR
+14-02-2020 14:02:54 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 14:02:54 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:BR
+14-02-2020 14:02:57 INFO  PreProcessorMain:102 - ------------FormsPath Preprocessor Execution Process ENDS with High Availability settings.-----------
+14-02-2020 14:03:47 INFO  ResourceLoader:59 - Environment with High_Availability loaded successfully
+14-02-2020 14:03:47 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - BR
+14-02-2020 14:03:47 INFO  PreProcessorServiceImpl:54 - FormsPath preProcessorServiceImpl : InitProcess() : Execution Started for Country - PE
+14-02-2020 14:03:48 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:BR
+14-02-2020 14:03:48 INFO  PreProcessorServiceImpl:186 - New documents are not found in Shared location for:PE
+14-02-2020 14:03:52 INFO  PreProcessorMain:102 - ------------FormsPath Preprocessor Execution Process ENDS with High Availability settings.-----------

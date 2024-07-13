@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: yayanam
+Build-Jdk: 16.0.2
+Class-Path: ./lib/log4j-1.2.17.jar ./lib/commons-io-2.5.jar ./lib/common
+ s-codec-1.10.jar ./lib/db2jcc-1.0.jar ./lib/db2jcc_license_cu-1.0.jar
+Specification-Title: GenericPP
+Specification-Version: 0.0
+Main-Class: com.chubb.preprocessor.generic.preprocessor.GenericPPMain
+Created-By: Maven Integration for Eclipse
+

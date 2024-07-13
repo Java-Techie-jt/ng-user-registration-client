@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="ScannedImage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Email_Metadata" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="workbasket_data" maxOccurs="1"
+					minOccurs="1" />
+				<xs:element ref="Index" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="Document" maxOccurs="1" minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Email_Metadata">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Subject" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="ToMailAddress" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="FromMailAddress" maxOccurs="1"
+					minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Subject" type="xs:string" />
+	<xs:element name="ToMailAddress" type="xs:string" />
+	<xs:element name="FromMailAddress" type="xs:string" />
+	<xs:element name="workbasket_data">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Error_Queue" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="WorkBasket_Code" maxOccurs="1"
+					minOccurs="1" />
+				<xs:element ref="Error_flag" maxOccurs="1" minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Error_Queue" type="xs:string" />
+	<xs:element name="WorkBasket_Code" type="xs:string" />
+	<xs:element name="Error_flag" type="xs:string" />
+	<xs:element name="Index">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bpu_code" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="ctry_code" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="Entity_Type" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="FileNumber" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="cl_number" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="cert_number" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="cert_name" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="pol_number" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="quote_number" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="gf_number" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="ent_code" maxOccurs="1" minOccurs="1" />
+				<xs:element ref="actioned_date " maxOccurs="1" minOccurs="1" />
+				<xs:element ref="IngestionMethod" maxOccurs="1"
+					minOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bpu_code" type="xs:string" />
+	<xs:element name="ctry_code" type="xs:string" />
+	<xs:element name="Entity_Type" type="xs:string" />
+	<xs:element name="FileNumber" type="xs:string" />
+	<xs:element name="cl_number" type="xs:string" />
+	<xs:element name="cert_number" type="xs:string" />
+	<xs:element name="cert_name" type="xs:string" />
+	<xs:element name="pol_number" type="xs:string" />
+	<xs:element name="quote_number" type="xs:string" />
+	<xs:element name="gf_number" type="xs:string" />
+	<xs:element name="ent_code" type="xs:string" />
+	<xs:element name="actioned_date" type="xs:string" />
+	<xs:element name="IngestionMethod" type="xs:string" />
+	<xs:element name="Document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="PackageID" />
+				<xs:element ref="Otherref" />
+				<xs:element ref="IsParent" />
+				<xs:element ref="FileName" />
+				<xs:element ref="scan_info" />
+				<xs:element ref="scandate" />
+				<xs:element ref="scantime" />
+				<xs:element ref="doc_description" />
+				<xs:element ref="file_type_code" />
+				<xs:element ref="folder_type_code" />
+				<xs:element ref="doc_type_code" />
+				<xs:element ref="Docdate" />
+				<xs:element ref="doc_producer" />
+				<xs:element ref="AIN" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PackageID" type="xs:string" />
+	<xs:element name="Otherref" type="xs:string" />
+	<xs:element name="IsParent" type="xs:boolean" />
+	<xs:element name="FileName" type="xs:string" />
+	<xs:element name="scan_info" type="xs:string" />
+	<xs:element name="scandate" type="xs:string" />
+	<xs:element name="scantime" type="xs:string" />
+	<xs:element name="doc_description" type="xs:string" />
+	<xs:element name="file_type_code" type="xs:string" />
+	<xs:element name="folder_type_code" type="xs:string" />
+	<xs:element name="doc_type_code" type="xs:string" />
+	<xs:element name="Docdate" type="xs:string" />
+	<xs:element name="doc_producer" type="xs:string" />
+	<xs:element name="AIN" type="xs:string" />
+</xs:schema>

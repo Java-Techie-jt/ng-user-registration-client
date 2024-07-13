@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions name="InsuredService" targetNamespace="http://Chubb.com/WorkView/InsuredService/2016/06"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:wsa10="http://www.w3.org/2005/08/addressing"
+                  xmlns:tns="http://Chubb.com/WorkView/InsuredService/2016/06"
+                  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+                  xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"
+                  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <wsp:Policy wsu:Id="WSHttpBinding_InsuredService_policy">
+        <wsp:ExactlyOne>
+            <wsp:All>
+                <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+                    <wsp:Policy>
+                        <sp:TransportToken>
+                            <wsp:Policy>
+                                <sp:HttpsToken RequireClientCertificate="false"/>
+                            </wsp:Policy>
+                        </sp:TransportToken>
+                        <sp:AlgorithmSuite>
+                            <wsp:Policy>
+                                <sp:Basic256/>
+                            </wsp:Policy>
+                        </sp:AlgorithmSuite>
+                        <sp:Layout>
+                            <wsp:Policy>
+                                <sp:Strict/>
+                            </wsp:Policy>
+                        </sp:Layout>
+                    </wsp:Policy>
+                </sp:TransportBinding>
+                <wsaw:UsingAddressing/>
+            </wsp:All>
+        </wsp:ExactlyOne>
+    </wsp:Policy>
+    <wsdl:types>
+        <xs:schema elementFormDefault="qualified" targetNamespace="http://Chubb.com/WorkView/InsuredService/2016/06"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/">
+            <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+            <xs:element name="CreateOrUpdateInsured">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="request" nillable="true" type="q1:Request"
+                                    xmlns:q1="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="Request">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="InsuredRequest" nillable="true" type="q2:ArrayOfInsuredDetails"
+                                xmlns:q2="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    <xs:element minOccurs="0" name="EnvironmentData" nillable="true" type="q3:EnvironmentData"
+                                xmlns:q3="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="Request" nillable="true" type="q4:Request"
+                        xmlns:q4="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfInsuredDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="InsuredDetails" nillable="true"
+                                type="q5:InsuredDetails" xmlns:q5="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfInsuredDetails" nillable="true" type="q6:ArrayOfInsuredDetails"
+                        xmlns:q6="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="InsuredDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="InsuredInfoRequest" nillable="true" type="q7:InsuredInfoRequest"
+                                xmlns:q7="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    <xs:element minOccurs="0" name="CorrespondentDetails" nillable="true" type="q8:CorrespondentDetails"
+                                xmlns:q8="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="InsuredDetails" nillable="true" type="q9:InsuredDetails"
+                        xmlns:q9="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="InsuredInfoRequest">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="AccountID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="AceOnlineReference" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ContactID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="AddressCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AntiMoneyLaunderingBranch" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AntiMoneyLaunderingBranchValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="AntiMoneyLaunderingID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="AntiMoneyLaunderingIDValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="AntiMoneyLaunderingInputDate" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="AnnualPremiumAmount" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="AnnualPremiumAmountValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="BackendID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="ClaimonList" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="COTEExpertCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="COTEExpertDate" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="DeceasedIndex" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EndorsementIndicator" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EntityCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FiscalCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="IDNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="IDNumberID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="InsuredActivity" type="xs:int"/>
+                    <xs:element minOccurs="0" name="InsuredActivityValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="InsuredLocation" type="xs:int"/>
+                    <xs:element minOccurs="0" name="InsuredLocationValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="InsuredNation" type="xs:int"/>
+                    <xs:element minOccurs="0" name="InsuredNationValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="MNPrefixID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="NAFCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Occupation" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PastClaim" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PaymentMethod" type="xs:int"/>
+                    <xs:element minOccurs="0" name="PaymentMethodValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="PEPID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PEPIDValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="PEPIndicatorUpdatedDate" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="PolicyLocation" type="xs:int"/>
+                    <xs:element minOccurs="0" name="PolicyLocationValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="PostCardSent" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PreferredCustomerAccidentIndicator" nillable="true"
+                                type="xs:string"/>
+                    <xs:element minOccurs="0" name="PreferredCustomerHealthIndicator" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PreviousCOTECode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ProvinceID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="ReceiveInformationIndicator" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ReportingEntity" type="xs:int"/>
+                    <xs:element minOccurs="0" name="ReportingEntityValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="RiskCategory" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SalesForceID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ShowNameIndicator" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SiretCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SpecialCallInstructions" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TerrorSuspect" type="xs:int"/>
+                    <xs:element minOccurs="0" name="TerrorSuspectValue" type="xs:int"/>
+                    <xs:element minOccurs="0" name="VATCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Website" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="GUID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DUNNSID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="IsMigrated" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AccountName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredCountryCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="County" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Method" type="ser:char"/>
+                    <xs:element minOccurs="0" name="DateAdded" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="Addedby" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ComplianceHolder" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CorrespondentID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="EntShortName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PolicyHolder" type="xs:int"/>
+                    <xs:element minOccurs="0" name="DunniSRATINGID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="TaxID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="RecordStatus" type="xs:int"/>
+                    <xs:element minOccurs="0" name="InsuredNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TaxIDType" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TaxFlag" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ServiceName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ProvinceCode" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="InsuredInfoRequest" nillable="true" type="q10:InsuredInfoRequest"
+                        xmlns:q10="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="CorrespondentDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="CorrespondentID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="ClaimReference" nillable="true" type="xs:string"/>
+                    <xs:element name="EntityCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="UnderWriterReference" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CorrespondentNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CorrespondentCompany" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Position" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Surname" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Forename" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Middlename" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EmailID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BuildingFloor" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CorrespondentName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TitleDescription" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="City" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PostCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TelephoneNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FaxNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BirthDate" nillable="true" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="OtherContactNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="County" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Sex" type="ser:char"/>
+                    <xs:element minOccurs="0" name="MobileNumber1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TownCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MobileNumber2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="WorkNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="IsPreferred" type="ser:char"/>
+                    <xs:element minOccurs="0" name="ContactMethodType" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="CorrespondentDetails" nillable="true" type="q11:CorrespondentDetails"
+                        xmlns:q11="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="EnvironmentData">
+                <xs:sequence>
+                    <xs:element name="CountryCode" nillable="true" type="xs:string"/>
+                    <xs:element name="MessageGUID" nillable="true" type="xs:string"/>
+                    <xs:element name="SourceSystem" nillable="true" type="xs:string"/>
+                    <xs:element name="WorkViewEnvironment" nillable="true" type="xs:string"/>
+                    <xs:element name="WorkViewLogonID" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="EnvironmentData" nillable="true" type="q12:EnvironmentData"
+                        xmlns:q12="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="CreateOrUpdateInsuredResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="CreateOrUpdateInsuredResult" nillable="true" type="q13:Response"
+                                    xmlns:q13="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="Response">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="OverallResult" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredResponse" nillable="true" type="q14:ArrayOfInsuredResponse"
+                                xmlns:q14="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="Response" nillable="true" type="q15:Response"
+                        xmlns:q15="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfInsuredResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="InsuredResponse" nillable="true"
+                                type="q16:InsuredResponse"
+                                xmlns:q16="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfInsuredResponse" nillable="true" type="q17:ArrayOfInsuredResponse"
+                        xmlns:q17="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="InsuredResponse">
+                <xs:sequence>
+                    <xs:element name="InsuredIntID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Status" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="Result" nillable="true" type="xs:string"/>
+                    <xs:element name="Description" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="InsuredResponse" nillable="true" type="q18:InsuredResponse"
+                        xmlns:q18="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="GetInsured">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="request" nillable="true" type="q19:GetInsuredRequest"
+                                    xmlns:q19="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="GetInsuredRequest">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="InsuredName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Floor" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="City" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PostCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Telephone" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FAX" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MNPrefixId" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="RecordLimit" type="xs:int"/>
+                    <xs:element minOccurs="0" name="County" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CorrespondentIntID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="ResultOrder" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="RiskCategory" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TaxID" type="xs:int"/>
+                    <xs:element minOccurs="0" name="FiscalCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredCountryCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Environmentdata" nillable="true" type="q20:EnvironmentData"
+                                xmlns:q20="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="GetInsuredRequest" nillable="true" type="q21:GetInsuredRequest"
+                        xmlns:q21="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="GetInsuredResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="GetInsuredResult" nillable="true"
+                                    type="q22:GetInsuredResponseDetails"
+                                    xmlns:q22="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="GetInsuredResponseDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="GetInsuredDetails" nillable="true"
+                                type="q23:ArrayOfGetInsuredDetail"
+                                xmlns:q23="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    <xs:element minOccurs="0" name="OverallResult" type="xs:boolean"/>
+                    <xs:element name="ErrorText" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="GetInsuredResponseDetails" nillable="true" type="q24:GetInsuredResponseDetails"
+                        xmlns:q24="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfGetInsuredDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="GetInsuredDetail" nillable="true"
+                                type="q25:GetInsuredDetail"
+                                xmlns:q25="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfGetInsuredDetail" nillable="true" type="q26:ArrayOfGetInsuredDetail"
+                        xmlns:q26="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="GetInsuredDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="PolicyNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CertificateNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BuildingFloor" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="City" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CountryName" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="County" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PostCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CountryID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TelephoneNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FaxNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FNMN" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SanctionStatus" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DunsNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DNBRating" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DNBEffectiveDate" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="GeniusNameCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CorrespondentResultList" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TaxID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FiscalCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="RequestID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ProvinceCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TaxIDType" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="GrossIncome" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TaxPaymentPosition" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CreditCardNumberLast4" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MultinationalCode" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="TypeofMovement" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Consortium" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InscriptionNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredCodeType" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AddressStreetFlat" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="FutureUse2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DistrictNumber" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="ForeignFlag" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FutureUse1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CodeIIBB" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BrokerCode" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Suburb" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CountryCode" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="RemotePoint" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FutureUse3" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="NumberIIBBFlag" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PaymentPlan" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Time" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="NumberIIBB" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Environment" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredActivityCode" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Surname" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ApolloID" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="TaxesExempt" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Entity" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="multinationalAgreement" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Date" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DischargeCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BankName" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="BirthDate" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Branch" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="PaymentPlanTerm" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FullName2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FullName1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SourceSystem" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BankAccountType" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="User" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BankAccountNumber" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="FlatNumber" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Jurisdiction" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FutureUse4" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FutureUse5" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BankOfficeBranch" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FutureUse6" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="InsuredCode" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="InsuredNumber_x0020_" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="CountyCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ClaimDescription" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="GetInsuredDetail" nillable="true" type="q27:GetInsuredDetail"
+                        xmlns:q27="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="GetInsuredBatch">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="request" nillable="true" type="q28:ExtractInsuredRequest"
+                                    xmlns:q28="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="ExtractInsuredRequest">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="EnvironmentData" nillable="true" type="q29:EnvironmentData"
+                                xmlns:q29="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ExtractInsuredRequest" nillable="true" type="q30:ExtractInsuredRequest"
+                        xmlns:q30="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="GetInsuredBatchResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="GetInsuredBatchResult" nillable="true"
+                                    type="q31:ExtractInsuredResponse"
+                                    xmlns:q31="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="ExtractInsuredResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="ExtractInsuredResponse" nillable="true"
+                                type="q32:ArrayOfExtractInsuredResponseDetail"
+                                xmlns:q32="http://Chubb.com/WorkView/InsuredService/2016/06">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <DefaultValue EmitDefaultValue="false"
+                                              xmlns="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="OverallResult" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ExtractInsuredResponse" nillable="true" type="q33:ExtractInsuredResponse"
+                        xmlns:q33="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfExtractInsuredResponseDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="ExtractInsuredResponseDetail" nillable="true"
+                                type="q34:ExtractInsuredResponseDetail"
+                                xmlns:q34="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfExtractInsuredResponseDetail" nillable="true"
+                        type="q35:ArrayOfExtractInsuredResponseDetail"
+                        xmlns:q35="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ExtractInsuredResponseDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="InsuredFlag" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="NameType" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="NANANM" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Name1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Name2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="AddressCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address3" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="City" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Address5" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PostCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredCountryCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MNPrefixID" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="FiscalCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="NAFCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="CurrentRate" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PreviousRate" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="EffectiveRate" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="RiskCategory" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="VATCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredName" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ExtractInsuredResponseDetail" nillable="true" type="q36:ExtractInsuredResponseDetail"
+                        xmlns:q36="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="GetInsuredMeridianBatch">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="extractRequest" nillable="true" type="q37:ExtractInsuredRequest"
+                                    xmlns:q37="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetInsuredMeridianBatchResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="GetInsuredMeridianBatchResult" nillable="true"
+                                    type="q38:MeridianExtractInsuredResponse"
+                                    xmlns:q38="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="MeridianExtractInsuredResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="MeridianExtractInsuredResponse" nillable="true"
+                                type="q39:ArrayOfMeridianExtractInsuredResponseDetail"
+                                xmlns:q39="http://Chubb.com/WorkView/InsuredService/2016/06">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <DefaultValue EmitDefaultValue="false"
+                                              xmlns="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="OverallResult" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="MeridianExtractInsuredResponse" nillable="true" type="q40:MeridianExtractInsuredResponse"
+                        xmlns:q40="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfMeridianExtractInsuredResponseDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="MeridianExtractInsuredResponseDetail"
+                                nillable="true" type="q41:MeridianExtractInsuredResponseDetail"
+                                xmlns:q41="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfMeridianExtractInsuredResponseDetail" nillable="true"
+                        type="q42:ArrayOfMeridianExtractInsuredResponseDetail"
+                        xmlns:q42="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="MeridianExtractInsuredResponseDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Entity" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Policyholdercode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="NAFCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="SiretCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="COTEExpertCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="COTEExpertDate" nillable="true" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="PreviousCOTECode" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="MeridianExtractInsuredResponseDetail" nillable="true"
+                        type="q43:MeridianExtractInsuredResponseDetail"
+                        xmlns:q43="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="GetMeridianExtractInsured">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="extractRequest" nillable="true" type="q44:ExtractInsuredRequest"
+                                    xmlns:q44="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="GetMeridianExtractInsuredResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="GetMeridianExtractInsuredResult" nillable="true"
+                                    type="q45:MeridianInsuredExtractResponse"
+                                    xmlns:q45="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="MeridianInsuredExtractResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="MeridianInsuredExtractResponse" nillable="true"
+                                type="q46:ArrayOfMeridianInsuredExtractResponseDetail"
+                                xmlns:q46="http://Chubb.com/WorkView/InsuredService/2016/06">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <DefaultValue EmitDefaultValue="false"
+                                              xmlns="http://schemas.microsoft.com/2003/10/Serialization/"/>
+                            </xs:appinfo>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="OverallResult" type="xs:boolean"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="MeridianInsuredExtractResponse" nillable="true" type="q47:MeridianInsuredExtractResponse"
+                        xmlns:q47="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfMeridianInsuredExtractResponseDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="MeridianInsuredExtractResponseDetail"
+                                nillable="true" type="q48:MeridianInsuredExtractResponseDetail"
+                                xmlns:q48="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfMeridianInsuredExtractResponseDetail" nillable="true"
+                        type="q49:ArrayOfMeridianInsuredExtractResponseDetail"
+                        xmlns:q49="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="MeridianInsuredExtractResponseDetail">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="ACTIONCODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="LASTDATEOFCHANGE" nillable="true" type="xs:dateTime"/>
+                    <xs:element minOccurs="0" name="EMPLOYEENUMBER" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="RECORDTYPEV21" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BUSINESSENTITY" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERCODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERNAME" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERSTREET1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERSTREET2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERCITY" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERZIPCODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERPOLITICALSUBDIVISION" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERCOUNTRY" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="UFIL1" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="POLICYHOLDERSALPHACODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="UFIL2" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BANKACCOUNTNUMBER" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BANKROUTINGNUMBER" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MULTINATIONALPREFIX" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="MULTINATIONALCODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="UFIL3" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TAXCODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="UFIL4" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TITLECODE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="UFIL5" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="LETTERSEQUENCE" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="BLOCKINGINDICATOR" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="TRANSACTIONEVENTTAG" nillable="true" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="DUNBRADSTREETRATING" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="DUNBRADSTREETNUMBER" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="ENDOFRECORDMARKER" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="MeridianInsuredExtractResponseDetail" nillable="true"
+                        type="q50:MeridianInsuredExtractResponseDetail"
+                        xmlns:q50="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="UpdateYearlyPremium">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="yearlyPremiumRequest" nillable="true"
+                                    type="q51:YearlyPremiumRequest"
+                                    xmlns:q51="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="YearlyPremiumRequest">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="YearlyPremium" nillable="true"
+                                type="q52:ArrayOfYearlyPremiumDetails"
+                                xmlns:q52="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    <xs:element minOccurs="0" name="EnvironmentData" nillable="true" type="q53:EnvironmentData"
+                                xmlns:q53="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="YearlyPremiumRequest" nillable="true" type="q54:YearlyPremiumRequest"
+                        xmlns:q54="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfYearlyPremiumDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="YearlyPremiumDetails" nillable="true"
+                                type="q55:YearlyPremiumDetails"
+                                xmlns:q55="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfYearlyPremiumDetails" nillable="true" type="q56:ArrayOfYearlyPremiumDetails"
+                        xmlns:q56="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="YearlyPremiumDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Entity" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="InsuredNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="YearlyPremium" type="xs:decimal"/>
+                    <xs:element minOccurs="0" name="Positive_x002F_NegativeAmount" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Date" type="xs:dateTime"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="YearlyPremiumDetails" nillable="true" type="q57:YearlyPremiumDetails"
+                        xmlns:q57="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="UpdateYearlyPremiumResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="UpdateYearlyPremiumResult" nillable="true"
+                                    type="q58:YearlyPremiumResponse"
+                                    xmlns:q58="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="YearlyPremiumResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="YearlyPremium" nillable="true" type="q59:ArrayOfYearlyPremiumInfo"
+                                xmlns:q59="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    <xs:element minOccurs="0" name="OverAllResult" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="YearlyPremiumResponse" nillable="true" type="q60:YearlyPremiumResponse"
+                        xmlns:q60="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfYearlyPremiumInfo">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="YearlyPremiumInfo" nillable="true"
+                                type="q61:YearlyPremiumInfo"
+                                xmlns:q61="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfYearlyPremiumInfo" nillable="true" type="q62:ArrayOfYearlyPremiumInfo"
+                        xmlns:q62="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="YearlyPremiumInfo">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="InsuredNumber" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Status" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="Result" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="YearlyPremiumInfo" nillable="true" type="q63:YearlyPremiumInfo"
+                        xmlns:q63="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="CreateOrUpdateInsuredRelation">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="insuredRelationRequest" nillable="true"
+                                    type="q64:InsuredRelationRequest"
+                                    xmlns:q64="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="InsuredRelationRequest">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="InsuredRelation" nillable="true"
+                                type="q65:ArrayOfInsuredRelationDetails"
+                                xmlns:q65="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    <xs:element minOccurs="0" name="EnvironmentData" nillable="true" type="q66:EnvironmentData"
+                                xmlns:q66="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="InsuredRelationRequest" nillable="true" type="q67:InsuredRelationRequest"
+                        xmlns:q67="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfInsuredRelationDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="InsuredRelationDetails" nillable="true"
+                                type="q68:InsuredRelationDetails"
+                                xmlns:q68="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfInsuredRelationDetails" nillable="true" type="q69:ArrayOfInsuredRelationDetails"
+                        xmlns:q69="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="InsuredRelationDetails">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Entity" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PolicyHolderCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="PolicyHolderPrimaryCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Cotipo" type="ser:char"/>
+                    <xs:element minOccurs="0" name="Filler" type="ser:char"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="InsuredRelationDetails" nillable="true" type="q70:InsuredRelationDetails"
+                        xmlns:q70="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:element name="CreateOrUpdateInsuredRelationResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="CreateOrUpdateInsuredRelationResult" nillable="true"
+                                    type="q71:InsuredRelationResponse"
+                                    xmlns:q71="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="InsuredRelationResponse">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="InsuredRelation" nillable="true"
+                                type="q72:ArrayOfInsuredRelationInfo"
+                                xmlns:q72="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                    <xs:element minOccurs="0" name="OverAllResult" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="InsuredRelationResponse" nillable="true" type="q73:InsuredRelationResponse"
+                        xmlns:q73="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="ArrayOfInsuredRelationInfo">
+                <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="InsuredRelationInfo" nillable="true"
+                                type="q74:InsuredRelationInfo"
+                                xmlns:q74="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="ArrayOfInsuredRelationInfo" nillable="true" type="q75:ArrayOfInsuredRelationInfo"
+                        xmlns:q75="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+            <xs:complexType name="InsuredRelationInfo">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="PolicyHolderCode" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Status" type="xs:boolean"/>
+                    <xs:element minOccurs="0" name="Result" nillable="true" type="xs:string"/>
+                    <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="InsuredRelationInfo" nillable="true" type="q76:InsuredRelationInfo"
+                        xmlns:q76="http://Chubb.com/WorkView/InsuredService/2016/06"/>
+        </xs:schema>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified"
+                   targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/"
+                   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                   xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+            <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+            <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+            <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+            <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+            <xs:element name="byte" nillable="true" type="xs:byte"/>
+            <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+            <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+            <xs:element name="double" nillable="true" type="xs:double"/>
+            <xs:element name="float" nillable="true" type="xs:float"/>
+            <xs:element name="int" nillable="true" type="xs:int"/>
+            <xs:element name="long" nillable="true" type="xs:long"/>
+            <xs:element name="QName" nillable="true" type="xs:QName"/>
+            <xs:element name="short" nillable="true" type="xs:short"/>
+            <xs:element name="string" nillable="true" type="xs:string"/>
+            <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+            <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+            <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+            <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+            <xs:element name="char" nillable="true" type="tns:char"/>
+            <xs:simpleType name="char">
+                <xs:restriction base="xs:int"/>
+            </xs:simpleType>
+            <xs:element name="duration" nillable="true" type="tns:duration"/>
+            <xs:simpleType name="duration">
+                <xs:restriction base="xs:duration">
+                    <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+                    <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+                    <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:element name="guid" nillable="true" type="tns:guid"/>
+            <xs:simpleType name="guid">
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+                </xs:restriction>
+            </xs:simpleType>
+            <xs:attribute name="FactoryType" type="xs:QName"/>
+            <xs:attribute name="Id" type="xs:ID"/>
+            <xs:attribute name="Ref" type="xs:IDREF"/>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="InsuredService_CreateOrUpdateInsured_InputMessage">
+        <wsdl:part name="parameters" element="tns:CreateOrUpdateInsured"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_CreateOrUpdateInsured_OutputMessage">
+        <wsdl:part name="parameters" element="tns:CreateOrUpdateInsuredResponse"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetInsured_InputMessage">
+        <wsdl:part name="parameters" element="tns:GetInsured"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetInsured_OutputMessage">
+        <wsdl:part name="parameters" element="tns:GetInsuredResponse"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetInsuredBatch_InputMessage">
+        <wsdl:part name="parameters" element="tns:GetInsuredBatch"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetInsuredBatch_OutputMessage">
+        <wsdl:part name="parameters" element="tns:GetInsuredBatchResponse"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetInsuredMeridianBatch_InputMessage">
+        <wsdl:part name="parameters" element="tns:GetInsuredMeridianBatch"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetInsuredMeridianBatch_OutputMessage">
+        <wsdl:part name="parameters" element="tns:GetInsuredMeridianBatchResponse"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetMeridianExtractInsured_InputMessage">
+        <wsdl:part name="parameters" element="tns:GetMeridianExtractInsured"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_GetMeridianExtractInsured_OutputMessage">
+        <wsdl:part name="parameters" element="tns:GetMeridianExtractInsuredResponse"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_UpdateYearlyPremium_InputMessage">
+        <wsdl:part name="parameters" element="tns:UpdateYearlyPremium"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_UpdateYearlyPremium_OutputMessage">
+        <wsdl:part name="parameters" element="tns:UpdateYearlyPremiumResponse"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_CreateOrUpdateInsuredRelation_InputMessage">
+        <wsdl:part name="parameters" element="tns:CreateOrUpdateInsuredRelation"/>
+    </wsdl:message>
+    <wsdl:message name="InsuredService_CreateOrUpdateInsuredRelation_OutputMessage">
+        <wsdl:part name="parameters" element="tns:CreateOrUpdateInsuredRelationResponse"/>
+    </wsdl:message>
+    <wsdl:portType name="InsuredService">
+        <wsdl:operation name="CreateOrUpdateInsured">
+            <wsdl:input
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/CreateOrUpdateInsured"
+                    message="tns:InsuredService_CreateOrUpdateInsured_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/CreateOrUpdateInsuredResponse"
+                    message="tns:InsuredService_CreateOrUpdateInsured_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="GetInsured">
+            <wsdl:input wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsured"
+                        message="tns:InsuredService_GetInsured_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsuredResponse"
+                    message="tns:InsuredService_GetInsured_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="GetInsuredBatch">
+            <wsdl:input wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsuredBatch"
+                        message="tns:InsuredService_GetInsuredBatch_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsuredBatchResponse"
+                    message="tns:InsuredService_GetInsuredBatch_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="GetInsuredMeridianBatch">
+            <wsdl:input
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsuredMeridianBatch"
+                    message="tns:InsuredService_GetInsuredMeridianBatch_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsuredMeridianBatchResponse"
+                    message="tns:InsuredService_GetInsuredMeridianBatch_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="GetMeridianExtractInsured">
+            <wsdl:input
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetMeridianExtractInsured"
+                    message="tns:InsuredService_GetMeridianExtractInsured_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetMeridianExtractInsuredResponse"
+                    message="tns:InsuredService_GetMeridianExtractInsured_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="UpdateYearlyPremium">
+            <wsdl:input
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/UpdateYearlyPremium"
+                    message="tns:InsuredService_UpdateYearlyPremium_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/UpdateYearlyPremiumResponse"
+                    message="tns:InsuredService_UpdateYearlyPremium_OutputMessage"/>
+        </wsdl:operation>
+        <wsdl:operation name="CreateOrUpdateInsuredRelation">
+            <wsdl:input
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/CreateOrUpdateInsuredRelation"
+                    message="tns:InsuredService_CreateOrUpdateInsuredRelation_InputMessage"/>
+            <wsdl:output
+                    wsaw:Action="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/CreateOrUpdateInsuredRelationResponse"
+                    message="tns:InsuredService_CreateOrUpdateInsuredRelation_OutputMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="WSHttpBinding_InsuredService" type="tns:InsuredService">
+        <wsp:PolicyReference URI="#WSHttpBinding_InsuredService_policy"/>
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="CreateOrUpdateInsured">
+            <soap12:operation
+                    soapAction="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/CreateOrUpdateInsured"
+                    style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="GetInsured">
+            <soap12:operation soapAction="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsured"
+                              style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="GetInsuredBatch">
+            <soap12:operation
+                    soapAction="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsuredBatch"
+                    style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="GetInsuredMeridianBatch">
+            <soap12:operation
+                    soapAction="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetInsuredMeridianBatch"
+                    style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="GetMeridianExtractInsured">
+            <soap12:operation
+                    soapAction="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/GetMeridianExtractInsured"
+                    style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="UpdateYearlyPremium">
+            <soap12:operation
+                    soapAction="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/UpdateYearlyPremium"
+                    style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="CreateOrUpdateInsuredRelation">
+            <soap12:operation
+                    soapAction="http://Chubb.com/WorkView/InsuredService/2016/06/InsuredService/CreateOrUpdateInsuredRelation"
+                    style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="InsuredService">
+        <wsdl:port name="WSHttpBinding_InsuredService" binding="tns:WSHttpBinding_InsuredService">
+            <soap12:address location="https://uk01deca021.aceins.com/WorkView/InsuredService/InsuredService.svc"/>
+            <wsa10:EndpointReference>
+                <wsa10:Address>https://uk01deca021.aceins.com/WorkView/InsuredService/InsuredService.svc</wsa10:Address>
+            </wsa10:EndpointReference>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

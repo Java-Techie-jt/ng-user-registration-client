@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">-->
+<xs:schema xmlns:i="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" 
+elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Amex.Models.Reports" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:element name="ScannedImage">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Index">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:integer" name="lobgroup_code"
+								nillable="true" minOccurs="0" />
+							<xs:element type="xs:integer" name="ctry_code"
+								nillable="false" />
+							<xs:element type="xs:integer" name="entity_type"
+								nillable="false" />
+							<xs:element type="xs:string" name="fileNumber"
+								nillable="false" />
+							<xs:element type="xs:string" name="ent_code" nillable="true"
+								minOccurs="0" />
+							<xs:element type="xs:integer" name="ingestionmethod"
+								nillable="false" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Document">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="filename" nillable="false" />
+							<xs:element type="xs:string" name="otherref" nillable="false" />
+							<xs:element type="xs:string" name="originator"
+								nillable="true" minOccurs="0" />
+							<xs:element type="xs:string" name="ingestion_info"
+								nillable="false" />
+							<xs:element type="xs:string" name="ingestion_user"
+								nillable="false" />
+							<xs:element type="xs:string" name="ingestion_date"
+								nillable="false" />
+							<xs:element type="xs:string" name="ingestion_time"
+								nillable="false" />
+							<xs:element type="xs:string" name="doc_description"
+								nillable="false" />
+							<xs:element type="xs:integer" name="file_code"
+								nillable="false" />
+							<xs:element type="xs:integer" name="folder_type_code"
+								nillable="false" />
+							<xs:element type="xs:integer" name="doc_type_code"
+								nillable="false" />
+							<xs:element type="xs:string" name="Docdate" nillable="false" />
+							<xs:element type="xs:string" name="doc_producer"
+								nillable="false" />
+							<xs:element type="xs:string" name="uwyear" nillable="true"
+								minOccurs="0" />
+							<xs:element type="xs:string" name="acknowledged_date"
+								nillable="true" minOccurs="0" />
+							<xs:element type="xs:string" name="actioned_date"
+								nillable="true" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

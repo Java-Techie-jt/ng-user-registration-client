@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<xs:element name="index_envelope">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="bpu_code" />
+				<xs:choice minOccurs="1" maxOccurs="1">
+					<xs:element name="error_queue" type="xs:string"
+						minOccurs="1" maxOccurs="1" />
+					<xs:element name="queue" type="xs:string" minOccurs="1"
+						maxOccurs="1" />
+				</xs:choice>
+				<xs:element ref="index" />
+				<xs:element maxOccurs="unbounded" minOccurs="1" ref="document" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bpu_code" type="xs:string" />
+
+	<xs:element name="index">
+		<xs:complexType>
+			<xs:choice minOccurs="1" maxOccurs="1">
+				<xs:element ref="policy" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="claim" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="certificate" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="generalfile" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="quote" minOccurs="1" maxOccurs="1" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="policy">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="pol_number" />
+				<xs:element ref="ent_code" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="quote">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="quote_number" />
+				<xs:element ref="ent_code" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="claim">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element type="xs:string" name="cl_number" />
+
+				
+					<xs:element ref="cert_number" minOccurs="0" />
+					<xs:element ref="pol_number" minOccurs="0"/>
+				
+				<xs:element ref="ent_code" minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="certificate">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cert_number" />
+				<xs:element ref="pol_number" />
+				<xs:element ref="cert_name" />
+				<xs:element ref="ent_code" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="generalfile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="gf_number" />
+				<xs:element ref="ent_code" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pol_number" type="xs:string" />
+	<xs:element name="cert_number" type="xs:string" />
+	<xs:element name="ent_code" type="xs:string" />
+	<xs:element name="cert_name" type="xs:string" />
+	<xs:element name="quote_number" type="xs:string" />
+	<xs:element name="gf_number" type="xs:string" />
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:all>
+				<xs:element ref="scan_info" />
+				<xs:element ref="doc_description" />
+				<xs:element ref="ftyp_code" />
+				<xs:element ref="doc_typ_code" />
+				<xs:element ref="doc_producer" />
+			</xs:all>
+		</xs:complexType>
+		
+	</xs:element>
+	<xs:element name="scan_info" type="xs:string" />
+	<xs:element name="doc_description" type="xs:string" />
+	<xs:element name="ftyp_code" type="xs:string" />
+	<xs:element name="doc_typ_code" type="xs:string" />
+	<xs:element name="doc_producer" type="xs:string" />
+</xs:schema>

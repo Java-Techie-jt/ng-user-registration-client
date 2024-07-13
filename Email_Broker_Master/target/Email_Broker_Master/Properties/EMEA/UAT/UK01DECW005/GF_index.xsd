@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           attributeFormDefault="unqualified" elementFormDefault="qualified">
+    <xs:element name="index_envelope" type="index_envelopeType"/>
+    
+      
+    <xs:complexType name="generalfileType">
+       
+        <xs:sequence>
+            <xs:element type="xs:string" name="bpu_code"/>
+            <xs:element type="xs:string" name="error_queue"/>
+            <xs:element type="gf_headerType" name="gf_header"/>
+            <xs:element type="gf_fieldsType" name="gf_fields"/>
+            <xs:element type="documentType" name="document" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="indexType">
+        <xs:sequence>
+            <xs:element type="generalfileType" name="generalfile"/>
+        </xs:sequence>
+    </xs:complexType>
+     
+    <xs:complexType name="documentType">
+     
+        <xs:sequence>
+      
+            <xs:element type="xs:string" name="scan_info"/>
+            <xs:element type="xs:string" name="doc_description"/>
+            <xs:element type="xs:string" name="doc_producer"/>
+            <xs:element type="xs:string" name="ftyp_code"/>
+            <xs:element type="xs:string" name="doc_typ_code"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="index_envelopeType">
+        <xs:sequence>
+            <xs:element type="indexType" name="index"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="gf_fieldsType">
+        <xs:sequence>
+            <xs:element name="gf_field" maxOccurs="unbounded"
+                        minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="gf_headerType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="gf_number"/>
+            <xs:element type="xs:string" name="gf_type"/>
+            <xs:element type="xs:string" name="gf_security_policy"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
